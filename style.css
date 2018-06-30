@@ -1,0 +1,15 @@
+/*
+ Theme Name:   gnoush
+ Theme URI:    http://www.agnesguinin.fr/
+ Description:  My Little Portfolio
+ Author:       Gnoush
+ Author URI:   http://www.agnesguinin.fr/
+ Template:     understrap-1
+ Version:      0.1.0
+*/
+
+@import url("./custom.min.css");
+
+body {
+    background-color: red;
+}

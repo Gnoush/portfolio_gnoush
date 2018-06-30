@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 <nav>
     <img class="logo-nav" src="./img/logo-ag.svg">
     <div>
@@ -74,3 +80,10 @@
     <h2>Contact</h2>
     <input>
 </form>
+
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.5'><\/script>".replace("HOST", location.hostname));
+    //]]></script>
+
+</body>
+</html>

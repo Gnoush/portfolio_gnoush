@@ -1,4 +1,4 @@
-/ DEPENDENCIES =================================================================================
+// DEPENDENCIES =================================================================================
 // PACKAGES ------------------------------------------------------------------------------------
 const gulp = require('gulp');
 const watch = require('gulp-watch');
@@ -44,16 +44,20 @@ gulp.task('watch', function () {
  */
 function watcher() {
     browserSync.init({
-        server: dist,
+        proxy: "wordpress.local",
         browser: "google chrome"
     });
 
-    watch(["./*.scss"], function () {
+    watch(["./css/*.scss"], function () {
         minify_css();
         browserSync.reload();
     });
 
-    watch("./*.js", () => {
+    watch(["index.php"], function () {
+        browserSync.reload();
+    });
+
+    watch("./js/*.js", () => {
         minify_js();
         browserSync.reload();
     });
@@ -70,7 +74,7 @@ function minify_css() {
         .pipe(sass())
         .pipe(concat('custom.min.css'))
         .pipe(minifyCSS())
-        .pipe(gulp.dest(`./`));
+        .pipe(gulp.dest("./"));
 }
 
 /**
@@ -82,5 +86,5 @@ function minify_js() {
     return gulp.src(js_path)
         .pipe(concat('script.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest(`${dist}/assets/js`));
+        .pipe(gulp.dest("./"));
 }

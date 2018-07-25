@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('stylesheet_directory'); ?>/style.css">
 </head>
 <body>
 <nav>
@@ -15,7 +15,7 @@
 </nav>
 
 <section class="home">
-    <a class="apropos-container" href="#aboutme">
+    <a class="<apropos-container" href="#aboutme">
         <img src="">
         <h4 class="nav-title">à propos<span>de moi</span></h4>
     </a>

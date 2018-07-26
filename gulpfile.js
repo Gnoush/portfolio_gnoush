@@ -44,7 +44,7 @@ gulp.task('watch', function () {
  */
 function watcher() {
     browserSync.init({
-        proxy: "wordpress.local",
+        proxy: "localhost/portfoliov2",
         browser: "google chrome"
     });
 

@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
     <meta charset="utf-8">
     <meta name="author" content="Agnès Guinin">
     <link rel="stylesheet" type="text/css" href="style.css">
+=======
+    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('stylesheet_directory'); ?>/style.css">
+>>>>>>> 58c528510e0c60e2562db64eb467f0727819c31d
 </head>
 <body>
     <nav>
@@ -16,8 +20,18 @@
         </div>
     </nav>
 
+<<<<<<< HEAD
     <section class="home">
         <a class="apropos-container" href="#aboutme">
+=======
+<section class="home">
+    <a class="<apropos-container" href="#aboutme">
+        <img src="">
+        <h4 class="nav-title">à propos<span>de moi</span></h4>
+    </a>
+    <div class="main-part">
+        <a class="cv-container" href="">
+>>>>>>> 58c528510e0c60e2562db64eb467f0727819c31d
             <img src="">
             <h4 class="nav-title">à propos<span>de moi</span></h4>
         </a>

@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
-    <meta charset="utf-8">
-    <meta name="author" content="Agnès Guinin">
-    <link rel="stylesheet" type="text/css" href="style.css">
-=======
     <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('stylesheet_directory'); ?>/style.css">
->>>>>>> 58c528510e0c60e2562db64eb467f0727819c31d
 </head>
 <body>
     <nav>
@@ -20,40 +14,38 @@
         </div>
     </nav>
 
-<<<<<<< HEAD
     <section class="home">
-        <a class="apropos-container" href="#aboutme">
-=======
-<section class="home">
-    <a class="<apropos-container" href="#aboutme">
-        <img src="">
-        <h4 class="nav-title">à propos<span>de moi</span></h4>
-    </a>
-    <div class="main-part">
-        <a class="cv-container" href="">
->>>>>>> 58c528510e0c60e2562db64eb467f0727819c31d
-            <img src="">
+        <a class="aboutme-container" href="">
+            <div class="aboutme-img">
+                <img src="">
+            </div>
             <h4 class="nav-title">à propos<span>de moi</span></h4>
         </a>
         <div class="main-part">
             <a class="cv-container" href="">
-                <img src="">
+                <div class="cv-img">
+                    <img src="">
+                </div>
                 <h4 class="nav-title"><span>Télécharger mon</span>CV</h4>
             </a>
             <div>
-                <img class="logo-opacity" src="">
+                <img class="logo-opacity" src="./img/logo-ag.svg">
                 <div class="name-container">
                     <h1>Agnès Guinin</h1>
                     <p>Webdesigner, Créatrice d'ambiance</p>
                 </div>
             </div>
             <a class="projets-container" href="#projects">
-                <img src="">
+                <div class="projets-img">
+                    <img src="">
+                </div>
                 <h4 class="nav-title"><span>Mes</span>Projets</h4>
             </a>
         </div>
         <a class="contact-container" href="#contact">
-            <img src="">
+            <div class="contact-img">
+                    <img src="">
+            </div>
             <h4 class="nav-title"><span>Me</span>Contacter</h4>
         </a>
     </section>

@@ -1,4 +1,76 @@
+a {
+  text-decoration: none; 
+}
 nav {
   display: flex;
   justify-content: space-between;
+  font-family: 'Poppins SemiBold';
+  text-transform: uppercase;
+  margin: 2vh 3vw;
+}
+nav a {
+  margin: 0 10px;
+  font-size: 0.7em;
+  color: #161616;
+  &:hover {
+    color: #FF636D;
+  }
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.aboutme-container {
+  margin-right: auto;
+  margin-left: 50%;
+}
+.aboutme-container h4 {
+  z-index: 2;
+}
+.aboutme-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #FF636D;
+  z-index: 1;
+}
+.main-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.name-container h1 {
+  font-family: 'Poppins ExtraBold';
+  font-size: 3.5em;
+  color: #FF636D;
+  margin: 0;
+}
+.name-container {
+  width: 430px;
+}
+.name-container p {
+  font-family: 'Poppins Italic';
+  color: #161616;
+  font-size: 1em;
+  margin: 0 0 0 30%;
+}
+.contact-container {
+  margin-right: 60%;
+  margin-left: auto;
+}
+
+.nav-title {
+  font-family: 'Poppins ExtraBold';
+  color: #161616;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+.nav-title span {
+  font-family: 'Poppins Italic';
+  text-transform: none;
 }

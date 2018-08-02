@@ -24,17 +24,17 @@ nav a {
 }
 .aboutme-container {
   margin-right: auto;
-  margin-left: 50%;
-}
-.aboutme-container h4 {
-  z-index: 2;
+  margin-left: 60%;
+  height: 150px;
+  width: 150px;
+  padding: 40px 0 25px;
 }
 .aboutme-img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   background-color: #FF636D;
-  z-index: 1;
+  position: absolute;
 }
 .main-part {
   display: flex;

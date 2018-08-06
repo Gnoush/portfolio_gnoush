@@ -26,7 +26,7 @@
                 <div class="cv-img">
                     <img src="">
                 </div>
-                <h4 class="nav-title"><span>Télécharger mon</span>CV</h4>
+                <h4 class="nav-title nav-title-cv"><span>Télécharger mon</span>CV</h4>
             </a>
             <div class="name-margin">
                 <img class="logo-opacity" src="./img/logo-ag.svg">
@@ -39,14 +39,14 @@
                 <div class="projets-img">
                     <img src="">
                 </div>
-                <h4 class="nav-title"><span>Mes</span>Projets</h4>
+                <h4 class="nav-title nav-title-projets"><span>Mes</span>Projets</h4>
             </a>
         </div>
         <a class="contact-container" href="#contact">
             <div class="contact-img">
                     <img src="">
             </div>
-            <h4 class="nav-title"><span>Me</span>Contacter</h4>
+            <h4 class="nav-title nav-title-contact"><span>Me</span>Contacter</h4>
         </a>
     </section>
 

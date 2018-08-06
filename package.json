@@ -12,7 +12,7 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^4.0.0",
-    "gulp-minify-css": "^1.2.4",
+    "gulp-clean-css": "",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.6.1",
     "gulp-sass": "^3.1.0",

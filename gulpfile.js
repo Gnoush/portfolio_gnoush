@@ -3,7 +3,7 @@
 const gulp = require('gulp');
 const watch = require('gulp-watch');
 const sass = require('gulp-sass');
-const minifyCSS = require('gulp-minify-css');
+const minifyCSS = require('gulp-clean-css');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const imagemin = require('gulp-imagemin');
@@ -37,6 +37,7 @@ gulp.task('default', () => {
  */
 gulp.task('watch', function () {
     watcher();
+    minify_css();
 });
 
 /**
@@ -45,7 +46,7 @@ gulp.task('watch', function () {
 function watcher() {
     browserSync.init({
         proxy: "localhost/portfoliov2",
-        browser: "google chrome"
+        browser: ""
     });
 
     watch(["./css/*.scss"], function () {
@@ -69,7 +70,7 @@ function watcher() {
  *
  * @returns {*|void} result of Gulp data Stream
  */
-function minify_css() {
+function minify_css() { 
     return gulp.src([path.css])
         .pipe(sass())
         .pipe(concat('custom.min.css'))

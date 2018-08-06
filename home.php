@@ -7,19 +7,19 @@
     <nav>
         <img class="logo-nav" src="./img/logo-ag.svg">
         <div>
-            <a href="">projets</a>
-            <a href="">à propos</a>
-            <a href="">contact</a>
+            <a href="#projects">projets</a>
+            <a href="#aboutme">à propos</a>
+            <a href="#contact">contact</a>
             <a href="">cv</a>
         </div>
     </nav>
 
     <section class="home">
-        <a class="aboutme-container" href="">
+        <a class="aboutme-container" href="#aboutme">
             <div class="aboutme-img">
                 <img src="">
             </div>
-            <h4 class="nav-title">à propos<span>de moi</span></h4>
+            <h4 class="nav-title nav-title-aboutme">à propos<span>de moi</span></h4>
         </a>
         <div class="main-part">
             <a class="cv-container" href="">
@@ -28,7 +28,7 @@
                 </div>
                 <h4 class="nav-title"><span>Télécharger mon</span>CV</h4>
             </a>
-            <div>
+            <div class="name-margin">
                 <img class="logo-opacity" src="./img/logo-ag.svg">
                 <div class="name-container">
                     <h1>Agnès Guinin</h1>

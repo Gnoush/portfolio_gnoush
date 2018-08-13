@@ -4,16 +4,22 @@ a {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-family: 'Poppins SemiBold';
   text-transform: uppercase;
   margin: 2vh 3vw;
-}
-nav a {
-  margin: 0 10px;
-  font-size: 0.7em;
-  color: #161616;
-  &:hover {
-    color: #FF636D;
+  a {
+    margin: 0 10px;
+    font-size: 0.7em;
+    color: #161616;
+    transition: color 0.5s;
+    &:hover {
+      color: #3239FF;
+    }
+  }
+  .logo-nav {
+    width: 5em;
+    height: 5em;
   }
 }
 
@@ -25,16 +31,24 @@ nav a {
 .aboutme-container {
   margin-right: auto;
   margin-left: 52%;
-  height: 195px;
+  height: 140px;
   position: relative;
   .aboutme-img {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background-color: green;
     position: absolute;
     transition: width 1s, height 1s;
     bottom: 0;
+    overflow: hidden;
+    img {
+      height: 155%;
+      width: 155%;
+      bottom: -20px;
+      right: -24px;
+      position: absolute;
+      object-fit: cover;
+    }
   }
   .nav-title-aboutme {
     opacity: 0;
@@ -65,11 +79,16 @@ nav a {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    background-color: green;
     position: absolute;
     transition: width 1s, height 1s;
     right: 0;
     bottom: 0;
+    overflow: hidden;
+    img {
+      height: 100%;
+	    width: 100%;
+      object-fit: cover;
+    }
   }
   .nav-title-cv {
     opacity: 0;
@@ -93,20 +112,33 @@ nav a {
 
 .name-margin {
   margin: 0 50px 50px;
+  position: relative;
+  .logo-opacity {
+    width: 9em;
+    height: 9em;
+    margin-bottom: -73px;
+    top: 0;
+    margin-top: -80px;
+    opacity: 0.1;
+    position: absolute;
+  }
 }
 .name-container {
   width: 430px;
   h1 {
     font-family: 'Poppins ExtraBold';
     font-size: 3.5em;
-    color: #FF636D;
+    background: -webkit-linear-gradient(45deg, #3239FF, #8BB6FF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin: 0;
   }
   p {
-    font-family: 'Poppins Italic';
+    font-family: 'Poppins';
+    font-style: italic;
     color: #161616;
     font-size: 1em;
-    margin: 0 0 0 45%;
+    margin: 0 0 0 32%;
   }
 }
 
@@ -118,9 +150,14 @@ nav a {
     width: 260px;
     height: 260px;
     border-radius: 50%;
-    background-color: green;
     position: absolute;
     transition: width 1s, height 1s;
+    overflow: hidden;
+    img {
+      height: 100%;
+	    width: 100%;
+      object-fit: cover;
+    }
   }
   .nav-title-projets {
     opacity: 0;
@@ -142,14 +179,20 @@ nav a {
   margin-left: auto;
   position: relative;
   width: 20em;
+  height: 12em;
   margin-top: -40px;
   .contact-img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background-color: green;
     position: absolute;
     transition: width 1s, height 1s;
+    overflow: hidden;
+    img {
+      height: 100%;
+	    width: 100%;
+      object-fit: cover;
+    }
   }
   .nav-title-contact {
     opacity: 0;
@@ -175,8 +218,35 @@ nav a {
   flex-direction: column;
   font-weight: normal;
   font-size: 1.2em;
+  span {
+    font-family: 'Poppins';
+    font-style: italic;
+    text-transform: none;
+  }
 }
-.nav-title span {
-  font-family: 'Poppins Italic';
-  text-transform: none;
+
+.about-me {
+  margin: 6em 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  img {
+    width: 22em;
+  }
+}
+
+.about-me-description {
+  h2 {
+    font-family: 'Poppins ExtraBold';
+    font-size: 3.5em;
+    color: #16161615;
+    span {
+      text-transform: uppercase;
+    }
+  }
+  p {
+    font-family: 'Poppins';
+    color: #161616;
+    font-size: 0.9em;
+  }
 }

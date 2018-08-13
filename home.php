@@ -5,7 +5,7 @@
 </head>
 <body>
     <nav>
-        <img class="logo-nav" src="./img/logo-ag.svg">
+        <img class="logo-nav" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag.svg">
         <div>
             <a href="#projects">projets</a>
             <a href="#aboutme">à propos</a>
@@ -17,46 +17,49 @@
     <section class="home">
         <a class="aboutme-container" href="#aboutme">
             <div class="aboutme-img">
-                <img src="">
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/illu-3-portfolio.png">
             </div>
             <h4 class="nav-title nav-title-aboutme">à propos<span>de moi</span></h4>
         </a>
         <div class="main-part">
             <a class="cv-container" href="">
                 <div class="cv-img">
-                    <img src="">
+                    <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/illu-4-portfolio.png">
                 </div>
                 <h4 class="nav-title nav-title-cv"><span>Télécharger mon</span>CV</h4>
             </a>
             <div class="name-margin">
-                <img class="logo-opacity" src="./img/logo-ag.svg">
                 <div class="name-container">
                     <h1>Agnès Guinin</h1>
                     <p>Webdesigner, Créatrice d'ambiance</p>
                 </div>
+                <img class="logo-opacity" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag.svg">
             </div>
             <a class="projets-container" href="#projects">
                 <div class="projets-img">
-                    <img src="">
+                    <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/illu-1-portfolio.png">
                 </div>
                 <h4 class="nav-title nav-title-projets"><span>Mes</span>Projets</h4>
             </a>
         </div>
         <a class="contact-container" href="#contact">
             <div class="contact-img">
-                    <img src="">
+                    <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/contact-bg.png">
             </div>
             <h4 class="nav-title nav-title-contact"><span>Me</span>Contacter</h4>
         </a>
     </section>
 
     <section class="about-me" id="aboutme">
-        <div>
-            <img src="" alt="">
-        </div>
+        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/aboutme.png" alt="">
         <div class="about-me-description">
-            <h2>à propos <span>de moi</span></h2>
-            <p>blablabla description</p>
+            <h2><span>à</span> propos</h2>
+            <p>
+                Étudiante en webdesign à Sup'Internet, amoureuse d'illustrations et un peu geek sur les bords, je passe beaucoup de temps entre mes livres et ma passion, le webdesign.
+                <br><br>Après un bac littéraire en 2014, j'ai d'abord suivi deux ans de classe préparatoire littéraire en me spécialisant en littérature et langue anglaise, avant de m'inscrire à Sup'Internet par volonté de sortir de l'aspect théorique et de rentrer dans un apprentissage plus pratique et concret. J'y ai découvert le webdesign, avec tous les aspects de créativité, de réflexion et de partage qui le compose.
+                <br><br>J'aime réaliser des interfaces claires, pratiques et accueillantes pour l'utilisateur, et répondre au mieux au besoin de mes clients.
+                <br><br>Pour voir mon travail ou me contacter, n'hésitez pas à scroller plus bas !
+            </p>
         </div>
     </section>
 

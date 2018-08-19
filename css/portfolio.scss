@@ -1,6 +1,20 @@
 a {
   text-decoration: none; 
 }
+.nav-title {
+  font-family: 'Poppins ExtraBold';
+  color: #161616;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  font-size: 1.2em;
+  span {
+    font-family: 'Poppins';
+    font-style: italic;
+    text-transform: none;
+  }
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -126,7 +140,7 @@ nav {
 }
 
 .name-margin {
-  margin: 0 50px 50px;
+  margin: 0 4em 4em;
   position: relative;
   .logo-opacity {
     width: 9em;
@@ -181,12 +195,12 @@ nav {
   &:hover {
     .nav-title-projets {
       transition: margin-left 1s, opacity 3s;
-      margin-left: 300px;
+      margin-left: 17em;
       opacity: 1;
     }
     .projets-img {
-      width: 19em;
-      height: 19em;
+      width: 21em;
+      height: 21em;
       img {
         transition: margin-left 2s;
         margin-left: 0em;
@@ -237,23 +251,9 @@ nav {
   }
 }
 
-.nav-title {
-  font-family: 'Poppins ExtraBold';
-  color: #161616;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  font-weight: normal;
-  font-size: 1.2em;
-  span {
-    font-family: 'Poppins';
-    font-style: italic;
-    text-transform: none;
-  }
-}
-
 .about-me {
-  margin: 6em 4em;
+  margin: 6em 4em 15em;
+  padding-top: 6em;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -276,5 +276,161 @@ nav {
     font-family: 'Poppins';
     color: #161616;
     font-size: 0.9em;
+  }
+}
+
+.projects-main-container {
+  margin: 6em;
+  h2 {
+    font-family: 'Poppins ExtraBold';
+    font-size: 3.5em;
+    color: #16161615;
+  }
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.projects {
+  margin-right: 2em;
+  margin-bottom: 2em;
+  width: 17em;
+  height: 17em;
+  overflow: hidden;
+  position: relative;
+  .project-description {
+    position: absolute;
+    padding-left: 20px;
+    color: white;
+    .project-description-placement {
+      bottom: 1em;
+      position: absolute;
+      opacity: 0;
+      h3 {
+        font-family: 'Poppins ExtraBold';
+        font-size: 1.2em;
+      }
+      p {
+        font-family: "Poppins";
+        font-size: 0.8em;
+      }
+    }
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .bck-color-1 {
+    background-color: #188546;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .bck-color-2 {
+    background-color: #C51162;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .bck-color-3 {
+    background-color: #3239FF;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .bck-color-4 {
+    background-color: #d1a31b;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .bck-color-5 {
+    background-color: #F57C00;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .bck-color-6 {
+    background-color: #8BB6FF;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover {
+    .bck-color-1 {
+      transition: opacity 1s;
+      opacity: 0.9;
+    }
+    .bck-color-2 {
+      transition: opacity 1s;
+      opacity: 0.9;
+    }
+    .bck-color-3 {
+      transition: opacity 1s;
+      opacity: 0.9;
+    }
+    .bck-color-4 {
+      transition: opacity 1s;
+      opacity: 0.9;
+    }
+    .bck-color-5 {
+      transition: opacity 1s;
+      opacity: 0.9;
+    }
+    .bck-color-6 {
+      transition: opacity 1s;
+      opacity: 0.9;
+    }
+    .project-description-placement {
+      transition: opacity 1s;
+      opacity: 1;
+    }
+  }
+}
+
+#contact {
+  margin: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-family: 'Poppins ExtraBold';
+    font-size: 3.5em;
+    color: #16161615;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins SemiBold';
+    color: #161616;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    input {
+      margin-bottom: 1.5em;
+      width: 25em;
+      border-radius: 2px;
+      border: 1px solid #16161630;
+      height: 2em;
+    }
+    .submit {
+      border: none;
+      font-family: "Poppins";
+      background-color: #8BB6FF;
+      color: white;
+      height: 2.5em;
+      margin: 1.5em 0;
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }

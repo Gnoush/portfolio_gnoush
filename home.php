@@ -55,7 +55,7 @@
         <div class="about-me-description">
             <h2><span>à</span> propos</h2>
             <p>
-                Étudiante en webdesign à Sup'Internet, amoureuse d'illustrations et un peu geek sur les bords, je passe beaucoup de temps entre mes livres et ma passion, le webdesign.
+                Étudiante en webdesign à Sup'Internet sur Paris, amoureuse d'illustrations et un peu geek sur les bords, je passe beaucoup de temps entre mes livres et ma passion, le webdesign.
                 <br><br>Après un bac littéraire en 2014, j'ai d'abord suivi deux ans de classe préparatoire littéraire en me spécialisant en littérature et langue anglaise, avant de m'inscrire à Sup'Internet par volonté de sortir de l'aspect théorique et de rentrer dans un apprentissage plus pratique et concret. J'y ai découvert le webdesign, avec tous les aspects de créativité, de réflexion et de partage qui le compose.
                 <br><br>J'aime réaliser des interfaces claires, pratiques et accueillantes pour l'utilisateur, et répondre au mieux au besoin de mes clients.
                 <br><br>Pour voir mon travail ou me contacter, n'hésitez pas à scroller plus bas !
@@ -67,30 +67,78 @@
         <h2>Projets</h2>
         <div class="projects-container">
             <a class="projects" href="">
-                <div class="project-description">
-                    <h3>Je suis un projet</h3>
-                    <p>Je suis une description de projet</p>
+                <div class="project-description bck-color-6">
+                    <div class='project-description-placement'>
+                        <h3>Je suis un projet</h3>
+                        <p>Je suis une description de projet</p>
+                    </div>
                 </div>
-                <div class="img-shadow-container">
-                    <img src="">
-                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/pop-up/london-devoir1.png">
             </a>
             <a class="projects" href="">
-                <div class="project-description">
-                    <h3>Je suis un projet</h3>
-                    <p>Je suis une description de projet</p>
+                <div class="project-description bck-color-5">
+                    <div class='project-description-placement'>
+                        <h3>Je suis un projet</h3>
+                        <p>Je suis une description de projet</p>
+                    </div>
                 </div>
-                <div class="img-shadow-container">
-                    <img src="">
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/projet_transversal/transversal-cropped.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-4">
+                    <div class='project-description-placement'>
+                        <h3>Je suis un projet</h3>
+                        <p>Je suis une description de projet</p>
+                    </div>
                 </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/pop-up/london-devoir1.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-3">
+                    <div class='project-description-placement'>
+                        <h3>Je suis un projet</h3>
+                        <p>Je suis une description de projet</p>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/projet_transversal/transversal-cropped.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-2">
+                    <div class='project-description-placement'>
+                        <h3>Je suis un projet</h3>
+                        <p>Je suis une description de projet</p>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/pop-up/london-devoir1.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-1">
+                    <div class='project-description-placement'>
+                        <h3>Je suis un projet</h3>
+                        <p>Je suis une description de projet</p>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/projet_transversal/transversal-cropped.png">
             </a>
         </div>
     </section>
 
-    <form id="contact">
+    <section id="contact">
         <h2>Contact</h2>
-        <input>
-    </form>
+        <form>
+            Nom : <input type="text" name="nom">
+            Status : <input list="statues" name="statues">
+            <datalist id="statues">
+                <option value="Entreprise">
+                <option value="Particulier">
+            </datalist>
+            Nom Entreprise : <input type="text" name="nom entreprise">
+            Email : <input type="email" name="email">
+            Téléphone : <input type="tel" name="tel">
+            Message : <input type="text" name="message">
+            <input type="submit" class="submit" value="Envoyer">
+        </form>
+    </section>
 
     <script id="__bs_script__">//<![CDATA[
         document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.5'><\/script>".replace("HOST", location.hostname));

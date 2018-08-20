@@ -48,8 +48,8 @@ nav {
   height: 140px;
   position: relative;
   .aboutme-img {
-    width: 140px;
-    height: 140px;
+    width: 9em;
+    height: 9em;
     border-radius: 50%;
     position: absolute;
     transition: width 1s, height 1s;
@@ -74,8 +74,8 @@ nav {
       opacity: 1;
     }
     .aboutme-img {
-      width: 200px;
-      height: 200px;
+      width: 12.5em;
+      height: 12.5em;
       img {
         transition: height 2s, width 2s, bottom 2s, right 2s;
         height: 100%;
@@ -97,8 +97,8 @@ nav {
   height: 14em;
   position: relative;
   .cv-img {
-    width: 130px;
-    height: 130px;
+    width: 8em;
+    height: 8em;
     border-radius: 50%;
     position: absolute;
     transition: width 1s, height 1s;
@@ -127,8 +127,8 @@ nav {
       opacity: 1;
     }
     .cv-img {
-      width: 160px;
-      height: 160px;
+      width: 10em;
+      height: 10em;
       img {
         transition : height 2s, width 2s, margin-left 2s;
         height: 120%;
@@ -150,6 +150,9 @@ nav {
     margin-top: -80px;
     opacity: 0.1;
     position: absolute;
+  }
+  .logo-responsive {
+    display: none;
   }
 }
 .name-container {
@@ -216,8 +219,8 @@ nav {
   height: 12em;
   margin-top: -40px;
   .contact-img {
-    width: 180px;
-    height: 180px;
+    width: 11.5em;
+    height: 11.5em;
     border-radius: 50%;
     position: absolute;
     transition: width 1s, height 1s;
@@ -240,8 +243,8 @@ nav {
       opacity: 1;
     }
     .contact-img {
-      width: 230px;
-      height: 230px;
+      width: 14.5em;
+      height: 14.5em;
       img {
         transition: margin-top 2s, margin-left 2s;
         margin-left: -25em;
@@ -280,7 +283,8 @@ nav {
 }
 
 .projects-main-container {
-  margin: 6em;
+  margin: 0 6em 6em 6em;
+  padding-top: 2em;
   h2 {
     font-family: 'Poppins ExtraBold';
     font-size: 3.5em;
@@ -430,6 +434,157 @@ nav {
       margin: 1.5em 0;
       &:hover {
         cursor: pointer;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1260px) { 
+  .nav-title {
+    font-size: 1em;
+  }
+  .name-margin {
+    margin: 0 3em 3em;
+    .name-container {
+      width: 382px;
+      h1 {
+        font-size: 3.3em;
+      }
+      p {
+        font-size: 0.9em;
+      }
+    }
+  }
+  .aboutme-container {
+    .aboutme-img {
+      width: 8em;
+      height: 8em;
+    }
+    &:hover {
+      .nav-title-aboutme {
+        transition: margin-left 1s, opacity 3s;
+        margin-left: 190px;
+        opacity: 1;
+      }
+      .aboutme-img {
+        width: 10.5em;
+        height: 10.5em;
+      }
+    }
+  }
+  .projets-container {
+    .projets-img {
+        width: 15em;
+        height: 15em;
+        img {
+          margin-left: -6em;
+        }
+    }
+    &:hover {
+      .nav-title-projets {
+        margin-left: 15em;
+        margin-top: -2em;
+      }
+      .projets-img {
+        width: 19em;
+        height: 19em;
+      }
+    }
+  }
+  .contact-container {
+    .contact-img {
+      width: 9.5em;
+      height: 9.5em;
+      img {
+        margin-left: -16em;
+      }
+    }
+    &:hover {
+      .nav-title-contact {
+        margin-left: 220px;
+      }
+      .contact-img {
+        width: 12.5em;
+        height: 12.5em;
+        img {
+          margin-left: -22em;
+          margin-top: -12em;
+        }
+      }
+    }
+  }
+  .cv-container {
+    .cv-img {
+      width: 7em;
+      height: 7em;
+    }
+    &:hover {
+      .nav-title-cv {
+        margin-right: 20px;
+        margin-top: 2em;
+      }
+      .cv-img {
+        width: 9em;
+        height: 9em;
+        img {
+          width: 125%;
+          height: 125%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  * {
+    margin: 0;
+    padding: 0; 
+  }
+  .aboutme-container {
+    display: none;
+  }
+  .projets-container {
+    display: none;
+  }
+  .contact-container {
+    display: none;
+  }
+  .cv-container {
+    display: none;
+  }
+  .home {
+    background-image: url(./img/illu-1-portfolio.png);
+    background-size: cover;
+    height: 41em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  nav {
+    display: none;
+  }
+  .name-margin {
+    .logo-opacity {
+      display: none;
+    }
+    .logo-responsive {
+      display: block;
+      width: 8em;
+      height: 9em;
+      margin-bottom: -73px;
+      top: 0;
+      margin-top: -82px;
+      opacity: 0.75;
+      position: absolute;
+    }
+    .name-container {
+      h1 {
+        background: none;
+        -webkit-text-fill-color: white;
+      }
+      p {
+        color: white;
       }
     }
   }

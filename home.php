@@ -34,6 +34,7 @@
                     <p>Webdesigner, Créatrice d'ambiance</p>
                 </div>
                 <img class="logo-opacity" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag.svg">
+                <img class="logo-responsive" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag-white.svg">
             </div>
             <a class="projets-container" href="#projects">
                 <div class="projets-img">

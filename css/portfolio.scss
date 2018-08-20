@@ -557,7 +557,7 @@ nav {
     display: none;
   }
   .home {
-    background-image: url(./img/illu-1-portfolio.png);
+    background-image: url(./img/bckg-responsive.png);
     background-size: cover;
     height: 41em;
     width: 100%;
@@ -574,6 +574,7 @@ nav {
   }
 
   .name-margin {
+    margin-top: 3em;
     .logo-opacity {
       display: none;
     }
@@ -583,8 +584,8 @@ nav {
       height: 9em;
       margin-bottom: -73px;
       top: 0;
-      margin-top: -82px;
-      opacity: 0.75;
+      margin-top: -83px;
+      opacity: .5;
       position: absolute;
     }
     .name-container {
@@ -614,6 +615,62 @@ nav {
       height: 0.15em;
       background-color: white;
       margin: 1em 0;
+    }
+  }
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+    img {
+      padding-left: 8em;
+    }
+    .about-me-description {
+      margin-left: 0;
+      margin-top: -18em;
+      h2 {
+        width: max-content;
+        background-color: white;
+        -webkit-box-shadow: 0px 2px 78px 50px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 2px 78px 50px rgba(255,255,255,1);
+        box-shadow: 0px 2px 78px 50px rgba(255,255,255,1);
+      }
+      p {
+        font-size: 0.8em;
+        background-color: white;
+        -webkit-box-shadow: 0px 2px 103px 66px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 2px 103px 66px rgba(255,255,255,1);
+        box-shadow: 0px 2px 103px 66px rgba(255,255,255,1);
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .home {
+    justify-content: flex-start;
+    background-position: 22%;
+    .main-part {
+      padding-top: 9em;
+    }
+  }
+  .name-margin {
+    margin-top: 0;
+    .logo-responsive {
+      width: 6em;
+      height: 8.8em;
+      padding-left: 0.5em;
+    }
+    .name-container {
+      width: 17em;
+      h1 {
+        font-size: 2em;
+        text-align: center;
+      }
+    }
+  }
+
+  .about-me {
+    .about-me-description {
+      margin-top: -15em;
     }
   }
 }

@@ -36,6 +36,15 @@
                 <img class="logo-opacity" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag.svg">
                 <img class="logo-responsive" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag-white.svg">
             </div>
+            <div class="nav-responsive">
+                <a href="#aboutme">à propos</a>
+                <div class="nav-responsive-line"></div>
+                <a href="#projects">Projets</a>
+                <div class="nav-responsive-line"></div>
+                <a href="#contact">contact</a>
+                <div class="nav-responsive-line"></div>
+                <a href="">cv</a>
+            </div>
             <a class="projets-container" href="#projects">
                 <div class="projets-img">
                     <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/illu-1-portfolio.png">

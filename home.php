@@ -61,7 +61,8 @@
     </section>
 
     <section class="about-me" id="aboutme">
-        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/aboutme.png" alt="">
+        <img class="about-me-img" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/aboutme.png" alt="">
+        <img class="about-me-img-responsive" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/aboutme-responsive.png" alt="">
         <div class="about-me-description">
             <h2><span>à</span> propos</h2>
             <p>

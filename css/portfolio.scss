@@ -35,6 +35,12 @@ nav {
     width: 5em;
     height: 5em;
   }
+  .fa-behance {
+    font-family: "font-awesome-brands"; 
+    content: "\f1b4";
+    font-weight: 400;
+
+  }
 }
 
 .home {
@@ -680,6 +686,26 @@ nav {
             }
           }
         }
+
+        .bck-color-1 {
+          display: none;
+        }
+        .bck-color-2 {
+          display: none;
+        }
+        .bck-color-3 {
+          display: none;
+        }
+        .bck-color-4 {
+          display: none;
+        }
+        .bck-color-5 {
+          display: none;
+        }
+        .bck-color-6 {
+          display: none;
+        }
+
       }
     }
   }

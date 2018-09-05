@@ -83,56 +83,162 @@
             <a class="projects" href="">
                 <div class="project-description bck-color-6">
                     <div class='project-description-placement'>
-                        <h3>Je suis un projet</h3>
-                        <p>Je suis une description de projet</p>
+                        <h3>Glastonbury Festival</h3>
+                        <p>Édition 2018</p>
                     </div>
                 </div>
-                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/pop-up/london-devoir1.png">
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/affiche-glastonbury.png">
             </a>
             <a class="projects" href="">
                 <div class="project-description bck-color-5">
                     <div class='project-description-placement'>
-                        <h3>Je suis un projet</h3>
-                        <p>Je suis une description de projet</p>
+                        <h3>City Hunter : <br> Découvre ta ville !</h3>
                     </div>
                 </div>
-                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/projet_transversal/transversal-cropped.png">
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/pub-city-hunter.png">
             </a>
             <a class="projects" href="">
                 <div class="project-description bck-color-4">
                     <div class='project-description-placement'>
-                        <h3>Je suis un projet</h3>
-                        <p>Je suis une description de projet</p>
+                        <h3>Wonderball</h3>
+                        <p>Une BD bien sombre au coeur de San Francisco !</p>
                     </div>
                 </div>
-                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/pop-up/london-devoir1.png">
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/accueil_wonderball.png">
             </a>
             <a class="projects" href="">
                 <div class="project-description bck-color-3">
                     <div class='project-description-placement'>
-                        <h3>Je suis un projet</h3>
-                        <p>Je suis une description de projet</p>
+                        <h3>Illustrations diverses</h3>
                     </div>
                 </div>
-                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/projet_transversal/transversal-cropped.png">
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/bckg-responsive.png">
             </a>
             <a class="projects" href="">
                 <div class="project-description bck-color-2">
                     <div class='project-description-placement'>
-                        <h3>Je suis un projet</h3>
-                        <p>Je suis une description de projet</p>
+                        <h3>Divers Logos</h3>
+                        <p>Victory us, logos perso, Mini-moi</p>
                     </div>
                 </div>
-                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/pop-up/london-devoir1.png">
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/alternativ-logo.png">
             </a>
             <a class="projects" href="">
                 <div class="project-description bck-color-1">
                     <div class='project-description-placement'>
-                        <h3>Je suis un projet</h3>
-                        <p>Je suis une description de projet</p>
+                        <h3>Joyeux Noël !</h3>
                     </div>
                 </div>
-                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/projet_transversal/transversal-cropped.png">
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/carte-noel.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-6">
+                    <div class='project-description-placement'>
+                        <h3>Call me Melidrama</h3>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/Melidrama.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-5">
+                    <div class='project-description-placement'>
+                        <h3>Popups n°2</h3>
+                        <p>Chaussures et série Netflix (Outlander)</p>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/perso-série-outlander.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-4">
+                    <div class='project-description-placement'>
+                        <h3>Projets de 3IE</h3>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/w4tchme.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-3">
+                    <div class='project-description-placement'>
+                        <h3>Présentation de 3IE</h3>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/sketchnote_3IE.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-2">
+                    <div class='project-description-placement'>
+                        <h3>Harry, Ron et Hermione</h3>
+                        <p>Always</p>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/HP_vecto.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-1">
+                    <div class='project-description-placement'>
+                        <h3>Chez Momo : <br> épicerie huppé</h3>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/momo.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-6">
+                    <div class='project-description-placement'>
+                        <h3>Stay in Shape : <br> projet fitness</h3>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/logo-sis.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-5">
+                    <div class='project-description-placement'>
+                        <h3>Aimez vos oreilles</h3>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/dumbo_ipod.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-4">
+                    <div class='project-description-placement'>
+                        <h3>Étiquettes et affiches décalées</h3>
+                        <p>Poisson, Arts graphiques, hérisson et chapeaux</p>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/FISH.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-3">
+                    <div class='project-description-placement'>
+                        <h3>Fibre</h3>
+                        <p>Collection naturelle et urbaine</p>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/fibre_v1.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-2">
+                    <div class='project-description-placement'>
+                        <h3>Queen of hearts</h3>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/mockup-cartes.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-1">
+                    <div class='project-description-placement'>
+                        <h3>Popups</h3>
+                        <p>Pub pour le Palace Theater, choix de forfait et achat de téléphone</p>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/london-devoir1.png">
+            </a>
+            <a class="projects" href="">
+                <div class="project-description bck-color-6">
+                    <div class='project-description-placement'>
+                        <h3>Tritus : <br>projet de recyclage</h3>
+                    </div>
+                </div>
+                <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/transversal-cropped.png">
             </a>
         </div>
     </section>

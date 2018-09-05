@@ -318,6 +318,9 @@ nav {
   height: 17em;
   overflow: hidden;
   position: relative;
+  -webkit-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+  -moz-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+  box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
   .project-description {
     position: absolute;
     padding-left: 20px;
@@ -326,6 +329,7 @@ nav {
       bottom: 1em;
       position: absolute;
       opacity: 0;
+      width: 80%;
       h3 {
         font-family: 'Poppins ExtraBold';
         font-size: 1.2em;

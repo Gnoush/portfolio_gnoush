@@ -47,7 +47,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5.5em;
+  margin-top: 2.5em;
 }
 .aboutme-container {
   margin-right: auto;
@@ -113,10 +113,10 @@ nav {
     bottom: 0;
     overflow: hidden;
     img {
-      height: 160%;
-      width: 160%;
+      height: 188%;
+      width: 188%;
       object-fit: cover;
-      margin-top: -2em;
+      margin-top: -6.1em;
       margin-left: -1em;
     }
   }
@@ -137,10 +137,11 @@ nav {
       width: 10em;
       height: 10em;
       img {
-        transition : height 2s, width 2s, margin-left 2s;
-        height: 120%;
-        width: 120%;
-        margin-left: 0;
+        transition: height 2s,width 2s,margin-left 2s, margin-top 2s;
+        height: 145%;
+        width: 200%;
+        margin-left: -10em;
+        margin-top: -1em;
       }
     }
   }

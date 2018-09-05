@@ -27,7 +27,7 @@
         <div class="main-part">
             <a class="cv-container" href="">
                 <div class="cv-img">
-                    <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/illu-4-portfolio.png">
+                    <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/illu-cv.png">
                 </div>
                 <h4 class="nav-title nav-title-cv"><span>Télécharger mon</span>CV</h4>
             </a>

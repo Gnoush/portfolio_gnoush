@@ -3,17 +3,21 @@
 <head>
     <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('stylesheet_directory'); ?>/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
 </head>
 <body>
     <nav>
         <img class="logo-nav" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag.svg">
-        <div>
+        <div class="nav-elements">
             <a href="#projects">projets</a>
             <a href="#aboutme">à propos</a>
             <a href="#contact">contact</a>
-            <a href="">cv</a>
-            <a class="fab fa-behance" href=""></a>
+            <a href="CV-agnes-guinin.pdf" download="cv_agnes_guinin">cv</a>
+            <div class="network">
+                <a class="fab fa-behance" href="https://www.behance.net/agnesguini6480"></a>
+                <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/agn%C3%A8s-guinin-01b819127/"></a>
+                <a class="fab fa-twitter" href="https://twitter.com/AgnesGuinin"></a>
+            </div>
         </div>
     </nav>
 
@@ -25,7 +29,7 @@
             <h4 class="nav-title nav-title-aboutme">à propos<span>de moi</span></h4>
         </a>
         <div class="main-part">
-            <a class="cv-container" href="">
+            <a class="cv-container" href="CV-agnes-guinin.pdf" download="cv_agnes_guinin">
                 <div class="cv-img">
                     <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/illu-cv.png">
                 </div>
@@ -46,7 +50,12 @@
                 <div class="nav-responsive-line"></div>
                 <a href="#contact">contact</a>
                 <div class="nav-responsive-line"></div>
-                <a href="">cv</a>
+                <a href="CV-agnes-guinin.pdf" download="cv_agnes_guinin">cv</a>
+                <div class="network-responsive">
+                    <a class="fab fa-behance" href="https://www.behance.net/agnesguini6480"></a>
+                    <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/agn%C3%A8s-guinin-01b819127/"></a>
+                    <a class="fab fa-twitter" href="https://twitter.com/AgnesGuinin"></a>
+                </div>
             </div>
             <a class="projets-container" href="#projects">
                 <div class="projets-img">

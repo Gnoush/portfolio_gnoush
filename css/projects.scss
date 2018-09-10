@@ -1,0 +1,85 @@
+header {
+    margin: 2vh 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo-home {
+        display: flex;
+        align-items: center;
+        .nav-name {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin: 1vw;
+            h3 {
+                font-family: 'Poppins ExtraBold';
+                color: #161616;
+                font-size: 1em;
+                margin: 0;
+            }
+            p {
+                font-family: 'Poppins';
+                font-style: italic;
+                color: #161616;
+                font-size: 0.8em;
+                margin: 0;
+            }
+        }
+    }
+    .logo-projects {
+        width: 5em;
+        height: 5em;
+    }
+    .contact-cta {
+        font-family: 'Poppins SemiBold';
+        text-transform: uppercase;
+        font-size: .7em;
+        color: #3239FF;
+        transition: color .5s;
+    }
+}
+
+.direction {
+    margin: 2vh 3vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 3vw;
+    h1 {
+        font-family: 'Poppins ExtraBold';
+        font-size: 3.5em;
+        color: #16161615;
+    }
+    p {
+        font-family: Poppins;
+        color: #161616;
+        font-size: 1em;
+        margin-top: 3em;
+    }
+    img {
+        width: 70%;
+        -webkit-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+        -moz-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+        box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+    }
+}
+
+.project-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 9em 0;
+    img {
+        width: 60%;
+        margin: 3em 0;
+        -webkit-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+        -moz-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+        box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+    }
+}

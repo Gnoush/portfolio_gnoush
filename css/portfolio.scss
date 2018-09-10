@@ -277,16 +277,23 @@ nav {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  position: relative;
   .about-me-img-responsive {
     display: none;
   }
   img {
-    width: 22em;
+    width: 30em;
+    position: absolute;
+    left: 0;
   }
 }
 
 .about-me-description {
-  margin: 60px 0 0 60px;
+  margin: 60px 0 90px 30em;
+  display: block;
+  max-width: 60em;
+  position: relative;
+  right: 0;
   h2 {
     font-family: 'Poppins ExtraBold';
     font-size: 3.5em;
@@ -471,7 +478,7 @@ nav {
     }
   }
   .about-me-description {
-    margin: 60px 0 90px 60px;
+    margin: 60px 0 90px 30em;
   }
 }
 
@@ -670,6 +677,7 @@ nav {
     }
     .about-me-img-responsive {
       display: flex;
+      position: relative;
     }
     .about-me-description {
       margin-left: 0;

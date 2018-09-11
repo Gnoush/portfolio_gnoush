@@ -209,8 +209,8 @@
             <a class="projects" href="">
                 <div class="project-description bck-color-4">
                     <div class='project-description-placement'>
-                        <h3>Étiquettes et affiches décalées</h3>
-                        <p>Poisson, Arts graphiques, hérisson et chapeaux</p>
+                        <h3>Poisson, Arts graphiques, hérisson et chapeaux</h3>
+                        <p>affiche</p>
                     </div>
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/FISH.png">

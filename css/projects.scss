@@ -73,6 +73,16 @@ header {
         -moz-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
         box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
     }
+
+    .img-presentation {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        img {
+            width: 48%;
+        }
+    }
 }
 
 .project-details {
@@ -88,12 +98,56 @@ header {
         -moz-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
         box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
     }
+    .logo-momo {
+        width: 30%;
+        margin-top: 0;
+        box-shadow: none;
+    }
+}
+
+.project-details-queen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 9em 0;
+    img {
+        width: 30%;
+        -webkit-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+        -moz-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+        box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+    }
+    .rose {
+        height: auto;
+        width: 25%;
+        box-shadow: none;
+    }
+}
+
+.project-details-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 9em 0;
+    img {
+        width: 35vw;
+        margin: 0 2em 2em;
+        -webkit-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+        -moz-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+        box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+    }
 }
 
 @media (max-width: 992px) {
     .project-name {
         h1 {
             margin: 0.5em 0 1em 0;
+        }
+        .img-presentation {
+            img {
+                width: 90%;
+                margin: 0.5em 0
+            }
         }
     }
 }
@@ -112,6 +166,11 @@ header {
             width: 90%;
         }
     }
+    .project-details-imgs {
+        img {
+            width: 50%;
+        }
+    }
 }
 
 @media (max-width: 500px) {
@@ -124,6 +183,27 @@ header {
     .project-name {
         h1 {
             font-size: 2em;
+        }
+    }
+    .project-details-queen {
+        flex-direction: column;
+        img {
+            width: 80%;
+        }
+        .rose {
+            width: 50%;
+            margin: 2em 0;
+        }
+    }
+    .project-details-imgs {
+        img {
+            width: 80%;
+        }
+    }
+    .project-details {
+        margin: 6em 0;
+        .logo-momo {
+            width: 60%;
         }
     }
 }

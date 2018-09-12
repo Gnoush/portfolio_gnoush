@@ -85,6 +85,12 @@ header {
     }
 }
 
+.project-name-illu {
+    img {
+        margin: 1em 0;
+    }
+}
+
 .project-details {
     display: flex;
     justify-content: center;
@@ -135,6 +141,28 @@ header {
         -webkit-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
         -moz-box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
         box-shadow: 1px 0px 26px 0px rgba(197,209,219,1);
+    }
+}
+
+.project-details-logos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 0 1em;
+        img {
+            max-width: 30%;
+        }
+    }
+    p {
+        font-family: Poppins;
+        color: #161616;
+        font-size: 1em;
+        margin: 1em 1em 6em;
     }
 }
 
@@ -204,6 +232,15 @@ header {
         margin: 6em 0;
         .logo-momo {
             width: 60%;
+        }
+    }
+    .project-details-logos {
+        div {
+            flex-direction: column;
+            img {
+                max-width: 80%;
+                margin-bottom: 1em;
+            }
         }
     }
 }

@@ -1,3 +1,4 @@
+<?php /* Template Name: popups */ ?>
 <!DOCTYPE html>
 <html>
 <head>

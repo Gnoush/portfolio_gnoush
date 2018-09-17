@@ -1,3 +1,4 @@
+<?php /* Template Name: illus */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,17 +25,15 @@
         <a href="" class="fas fa-angle-right"></a>
     </section>
 
-    <section class="project-name">
-        <h1>Présentation de 3IE</h1>
-        <img src="./img/projets-details/3ie-sketchnote/3ie-sketchnote-mockup.png" alt="">
-        <p class="description">
-            Affiche réalisée dans le cadre de mon stage au Laboratoire de recherches technologiques 3IE (rattaché à l'école Epita), afin de présenter les activités du labo, et le processus de création d'un projet. Je faisais moi-même partie du pôle Design en tant que stagiaire UX Design.
-        </p>
+    <section class="project-name project-name-illu">
+        <h1>Illustrations diverses</h1>
+        <img src="./img/bckg-responsive.png" alt="">
+        <img src="./img/contact-bg.png" alt="">
+        <img src="./img/illu-3-portfolio.png" alt="">
+        <img src="./img/illu-1-portfolio.png" alt="">
+        <img src="./img/illu-cv.png" alt="">
     </section>
 
-    <section class="project-details">
-        <img src="./img/projets-details/3ie-sketchnote/sketchnote-3IE.png" alt="">
-    </section>
 
     <section class="direction">
         <a href="" class="fas fa-angle-left"></a>

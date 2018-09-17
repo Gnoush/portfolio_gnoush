@@ -1,3 +1,4 @@
+<?php /* Template Name: cityhunter */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,16 +26,17 @@
     </section>
 
     <section class="project-name">
-        <h1>Popups n°2</h1>
-        <div class="img-presentation">
-                <img src="./img/projets-details/popups2/converse-mockup.png" alt="">
-                <img src="./img/projets-details/popups2/outlander-mockup.png" alt="">
-        </div>
+        <h1>City Hunter : Découvre ta ville !</h1>
+        <img src="./img/projets/pub-city-hunter.png" alt="">
+        <p>
+            Le but : devenir expert en street arts et connaître les lieux insolites et meilleurs bars et restau qui peuplent ta ville.
+            <br><br>City Hunter est un jeu sous forme de parcours. Créer ou rejoins une équipe, choisit ou créer un parcours, et pars à la découverte de ta ville ou de ton quartiers en suivant les étapes sur ton téléphone.
+            <br><br>Malheureusement cette application n'existe que sous forme de maquettes..
+        </p>
     </section>
 
     <section class="project-details">
-        <img src="./img/projets-details/popups2/perso-série-outlander2.png" alt="">
-        <img src="./img/projets-details/popups2/devoir-basket-agnes-guinin.png" alt="">
+        <img src="./img/projets-details/city-hunter/city-hunter-mockup.png" alt="">
     </section>
 
     <section class="direction">

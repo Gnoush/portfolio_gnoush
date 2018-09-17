@@ -1,3 +1,4 @@
+<?php /* Template Name: logos */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,17 +26,27 @@
     </section>
 
     <section class="project-name">
-        <h1>Projets de 3IE</h1>
-        <img src="./img/projets-details/projets-3ie/affiches-3ie-mockup.png" alt="">
-        <p class="description">
-            Quelques affiches réalisées dans le cadre de mon stage chez 3IE (voir projet "Présentation de 3IE"), présentant quelques uns des projets en cours du labo. 
-        </p>
+        <h1>Divers Logos</h1>
     </section>
 
-    <section class="project-details">
-        <img src="./img/projets-details/projets-3ie/w4tchme.png" alt="">
-        <img src="./img/projets-details/projets-3ie/oceanyd-affiche.png" alt="">
-        <img src="./img/projets-details/projets-3ie/ephedra-affiche.png" alt="">
+    <section class="project-details-logos">
+        <div>
+            <img src="./img/projets-details/logos/logomoi1.png" alt="">
+            <img src="./img/projets-details/logos/logomoi2.png" alt="">
+            <img src="./img/projets-details/logos/logomoi3.png" alt="">
+        </div>
+        <p>Logos alternatifs à mon logo actuel, mais moins adapté pour le web.</p>
+        <div>
+            <img src="./img/projets-details/logos/minimoi1.png" alt="">
+            <img src="./img/projets-details/logos/minimoi2.png" alt="">
+        </div>
+        <p>Propositions de logo pour la marque de produit pour bébés Mini-moi. J'ai une petite préférence pour les giraffes.</p>
+        <div>
+            <img src="./img/projets-details/logos/V-us-logo1.png" alt="">
+            <img class="loading" src="./img/projets-details/logos/loading-app.png" alt="">
+            
+        </div>
+        <p>Créations de logo pour une appli e-sport : VictoryUs. J'en ai créé le logo mais aussi le nom.</p>
     </section>
 
     <section class="direction">

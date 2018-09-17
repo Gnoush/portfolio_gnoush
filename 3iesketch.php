@@ -1,14 +1,15 @@
+<?php /* Template Name: 3iesketch */ ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('stylesheet_directory'); ?>/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
 </head>
 <body>
     <header>
-            <a class="logo-home" href="">
-                <img class="logo-projects" src="./img/logo-ag.svg">
+            <a class="logo-home" href="<?php echo esc_url( home_url('/') ); ?>">
+                <img class="logo-projects" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag.svg">
                 <div class="nav-name">
                     <h3>Agnès Guinin</h3>
                     <p>Webdesigner</p>
@@ -25,18 +26,15 @@
     </section>
 
     <section class="project-name">
-        <h1>Chez Momo : épicerie huppé</h1>
-        <img src="./img/projets-details/momo/momo-mockup.png" alt="">
+        <h1>Présentation de 3IE</h1>
+        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/3ie-sketchnote/3ie-sketchnote-mockup.png" alt="">
         <p class="description">
-            "Chez Momo" est un projet visant à élargir la clientelle d'une petite épicerie parisienne.<br><br> En collaboration avec d'autres Webdesigners et marqueteurs, nous avons réfléchi à un système de courses à distance (l'utilisateur commanderait en ligne et irait chercher ses courses sur place), ainsi que toute une gamme de recettes disponible sur le site internet faisable avec les produits présent dans la boutique. <br><br>J'en ai réalisé le logo ainsi que quelques unes des pages du site.
+            Affiche réalisée dans le cadre de mon stage au Laboratoire de recherches technologiques 3IE (rattaché à l'école Epita), afin de présenter les activités du labo, et le processus de création d'un projet. Je faisais moi-même partie du pôle Design en tant que stagiaire UX Design.
         </p>
     </section>
 
     <section class="project-details">
-        <img class="logo-momo" src="./img/projets-details/momo/momo-logo.png" alt="">
-        <img src="./img/projets-details/momo/Page-produits.png" alt="">
-        <img src="./img/projets-details/momo/Page-recette.png" alt="">
-
+        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/3ie-sketchnote/sketchnote-3IE.png" alt="">
     </section>
 
     <section class="direction">

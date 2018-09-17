@@ -1,3 +1,4 @@
+<?php /* Template Name: queenofhearts */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,27 +26,14 @@
     </section>
 
     <section class="project-name">
-        <h1>Divers Logos</h1>
+        <h1>Queen of Hearts</h1>
+        <img src="./img/projets-details/queenofhearts/mockup-cartes.png" alt="">
     </section>
 
-    <section class="project-details-logos">
-        <div>
-            <img src="./img/projets-details/logos/logomoi1.png" alt="">
-            <img src="./img/projets-details/logos/logomoi2.png" alt="">
-            <img src="./img/projets-details/logos/logomoi3.png" alt="">
-        </div>
-        <p>Logos alternatifs à mon logo actuel, mais moins adapté pour le web.</p>
-        <div>
-            <img src="./img/projets-details/logos/minimoi1.png" alt="">
-            <img src="./img/projets-details/logos/minimoi2.png" alt="">
-        </div>
-        <p>Propositions de logo pour la marque de produit pour bébés Mini-moi. J'ai une petite préférence pour les giraffes.</p>
-        <div>
-            <img src="./img/projets-details/logos/V-us-logo1.png" alt="">
-            <img class="loading" src="./img/projets-details/logos/loading-app.png" alt="">
-            
-        </div>
-        <p>Créations de logo pour une appli e-sport : VictoryUs. J'en ai créé le logo mais aussi le nom.</p>
+    <section class="project-details-queen">
+        <img src="./img/projets-details/queenofhearts/face.png" alt="">
+        <img class="rose" src="./img/projets-details/queenofhearts/rose.png" alt="">
+        <img src="./img/projets-details/queenofhearts/pile.png" alt="">
     </section>
 
     <section class="direction">

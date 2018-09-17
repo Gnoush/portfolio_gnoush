@@ -1,3 +1,4 @@
+<?php /* Template Name: popups2 */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,12 +26,16 @@
     </section>
 
     <section class="project-name">
-        <h1>Harry, Ron et Hermione</h1>
-        <img src="./img/projets-details/hp/hp-mockup.png" alt="">
+        <h1>Popups n°2</h1>
+        <div class="img-presentation">
+                <img src="./img/projets-details/popups2/converse-mockup.png" alt="">
+                <img src="./img/projets-details/popups2/outlander-mockup.png" alt="">
+        </div>
     </section>
 
     <section class="project-details">
-        <img src="./img/projets-details/hp/HP-vecto.png" alt="">
+        <img src="./img/projets-details/popups2/perso-série-outlander2.png" alt="">
+        <img src="./img/projets-details/popups2/devoir-basket-agnes-guinin.png" alt="">
     </section>
 
     <section class="direction">

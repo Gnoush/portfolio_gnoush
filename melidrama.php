@@ -1,3 +1,4 @@
+<?php /* Template Name: melidrama */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,12 +26,15 @@
     </section>
 
     <section class="project-name">
-        <h1>Aimez vos oreilles</h1>
-        <img src="./img/projets-details/dumbo/dumbo-mockup.png" alt="">
+        <h1>Call Me Melidrama</h1>
+        <img src="./img/projets-details/melidrama/Melidrama.png" alt="">
+        <p>
+            Projet personnel, inspiré par l'album "Melodrama" de Lorde et par les fan-arts Harry Potter.
+        </p>
     </section>
 
     <section class="project-details">
-        <img src="./img/projets-details/dumbo/Dumbo-ipod.png" alt="">
+        <img src="./img/projets-details/melidrama/Melidrama-shirt-noir.png" alt="">
     </section>
 
     <section class="direction">

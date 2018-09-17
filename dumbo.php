@@ -1,3 +1,4 @@
+<?php /* Template Name: dumbo */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,15 +25,14 @@
         <a href="" class="fas fa-angle-right"></a>
     </section>
 
-    <section class="project-name project-name-illu">
-        <h1>Illustrations diverses</h1>
-        <img src="./img/bckg-responsive.png" alt="">
-        <img src="./img/contact-bg.png" alt="">
-        <img src="./img/illu-3-portfolio.png" alt="">
-        <img src="./img/illu-1-portfolio.png" alt="">
-        <img src="./img/illu-cv.png" alt="">
+    <section class="project-name">
+        <h1>Aimez vos oreilles</h1>
+        <img src="./img/projets-details/dumbo/dumbo-mockup.png" alt="">
     </section>
 
+    <section class="project-details">
+        <img src="./img/projets-details/dumbo/Dumbo-ipod.png" alt="">
+    </section>
 
     <section class="direction">
         <a href="" class="fas fa-angle-left"></a>

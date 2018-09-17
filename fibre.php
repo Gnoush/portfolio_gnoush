@@ -1,3 +1,4 @@
+<?php /* Template Name: fibre */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,17 +26,16 @@
     </section>
 
     <section class="project-name">
-        <h1>City Hunter : Découvre ta ville !</h1>
-        <img src="./img/projets/pub-city-hunter.png" alt="">
-        <p>
-            Le but : devenir expert en street arts et connaître les lieux insolites et meilleurs bars et restau qui peuplent ta ville.
-            <br><br>City Hunter est un jeu sous forme de parcours. Créer ou rejoins une équipe, choisit ou créer un parcours, et pars à la découverte de ta ville ou de ton quartiers en suivant les étapes sur ton téléphone.
-            <br><br>Malheureusement cette application n'existe que sous forme de maquettes..
+        <h1>Fibre</h1>
+        <img src="./img/projets-details/fibre/fibre-mockup.png" alt="">
+        <p class="description">
+            Deux versions différentes du même site, de la marque fictive Fibre.
         </p>
     </section>
 
     <section class="project-details">
-        <img src="./img/projets-details/city-hunter/city-hunter-mockup.png" alt="">
+        <img src="./img/projets-details/fibre/Fibre-v1.png" alt="">
+        <img src="./img/projets-details/fibre/V2.png" alt="">
     </section>
 
     <section class="direction">

@@ -1,3 +1,4 @@
+<?php /* Template Name: tritus */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,17 +26,18 @@
     </section>
 
     <section class="project-name">
-        <h1>Wonderball</h1>
-        <img src="./img/projets-details/wonderball/wonderball_mockup.png" alt="">
-        <p>Une ambiance sombre, des personnages bien ficelés, Wonderball est une BD policière situé à San Francisco. J'ai essayé de restituer l'atmosphère dans ce site promotionnel.</p>
+        <h1>Projet Tritus</h1>
+        <img src="./img/projets-details/tritus/tritus-mockup.png" alt="">
+        <p class="description">
+            A travers un site internet, son application mobile et sa poubelle connectée, Tritus encourage le recyclage de bouteille tout en récompensant l'utilisateur !
+            <br><br>Comment ça marche ? L'utilisateur va jeter ses bouteilles dans une poubelle Tritus, chaque bouteille recyclé se transformera en points que l'utilisateur pourra utiliser pour obtenir des bons de réductions ou bons d'achats dans différents commerces partenaires du projet Tritus.
+        </p>
     </section>
 
     <section class="project-details">
-            <img src="./img/projets-details/wonderball/wonderball-mobile.png" alt="">
-        <img src="./img/projets-details/wonderball/accueil_wonderball.png" alt="">
-        <img src="./img/projets-details/wonderball/albums.png" alt="">
-        <img src="./img/projets-details/wonderball/fiche-tome-1.png" alt="">
-        <img src="./img/projets-details/wonderball/page-actu.png" alt="">
+        <img src="./img/projets-details/tritus/accueil-connecté-desktop.png" alt="">
+        <img src="./img/projets-details/tritus/devenir-partnenaire-desktop.png" alt="">
+        <img src="./img/projets-details/tritus/noustablette.png" alt="">
     </section>
 
     <section class="direction">

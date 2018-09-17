@@ -1,3 +1,4 @@
+<?php /* Template Name: hp */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,15 +26,12 @@
     </section>
 
     <section class="project-name">
-        <h1>Call Me Melidrama</h1>
-        <img src="./img/projets-details/melidrama/Melidrama.png" alt="">
-        <p>
-            Projet personnel, inspiré par l'album "Melodrama" de Lorde et par les fan-arts Harry Potter.
-        </p>
+        <h1>Harry, Ron et Hermione</h1>
+        <img src="./img/projets-details/hp/hp-mockup.png" alt="">
     </section>
 
     <section class="project-details">
-        <img src="./img/projets-details/melidrama/Melidrama-shirt-noir.png" alt="">
+        <img src="./img/projets-details/hp/HP-vecto.png" alt="">
     </section>
 
     <section class="direction">

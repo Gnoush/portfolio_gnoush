@@ -1,3 +1,4 @@
+<?php /* Template Name: noel */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,18 +26,12 @@
     </section>
 
     <section class="project-name">
-        <h1>Glastonbury Festival</h1>
-        <img src="./img/projets-details/glastonbury/mockup-glastonbury.png" alt="">
-        <p>
-           Glastonbury ne faisant pas de festival en 2018, moi et plusieurs designers avons imaginé notre propre campagne publicitaire, en nous inspirant du mouvement psychédélique des années 70.
-        </p>
+        <h1>Joyeux Noël !</h1>
+        <img src="./img/projets-details/noel/christmas-Mockup.png" alt="">
     </section>
 
     <section class="project-details">
-        <img src="./img/projets-details/glastonbury/affiche-glastonbury.png" alt="">
-        <img src="./img/projets-details/glastonbury/flyer-mockup.png" alt="">
-        <img class="glastonbury-shadow" src="./img/projets-details/glastonbury/banner-glastonbury.png" alt="">
-        <img src="./img/projets-details/glastonbury/interactive-concept-mockup.png" alt="">
+        <img src="./img/projets-details/noel/carte-noel.png" alt="">
     </section>
 
     <section class="direction">

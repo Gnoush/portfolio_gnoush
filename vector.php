@@ -1,3 +1,4 @@
+<?php /* Template Name: vector */ ?>
 <!DOCTYPE html>
 <html>
 <head>

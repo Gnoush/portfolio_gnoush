@@ -1,3 +1,4 @@
+<?php /* Template Name: wonderball */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,14 +26,17 @@
     </section>
 
     <section class="project-name">
-        <h1>Queen of Hearts</h1>
-        <img src="./img/projets-details/queenofhearts/mockup-cartes.png" alt="">
+        <h1>Wonderball</h1>
+        <img src="./img/projets-details/wonderball/wonderball_mockup.png" alt="">
+        <p>Une ambiance sombre, des personnages bien ficelés, Wonderball est une BD policière situé à San Francisco. J'ai essayé de restituer l'atmosphère dans ce site promotionnel.</p>
     </section>
 
-    <section class="project-details-queen">
-        <img src="./img/projets-details/queenofhearts/face.png" alt="">
-        <img class="rose" src="./img/projets-details/queenofhearts/rose.png" alt="">
-        <img src="./img/projets-details/queenofhearts/pile.png" alt="">
+    <section class="project-details">
+            <img src="./img/projets-details/wonderball/wonderball-mobile.png" alt="">
+        <img src="./img/projets-details/wonderball/accueil_wonderball.png" alt="">
+        <img src="./img/projets-details/wonderball/albums.png" alt="">
+        <img src="./img/projets-details/wonderball/fiche-tome-1.png" alt="">
+        <img src="./img/projets-details/wonderball/page-actu.png" alt="">
     </section>
 
     <section class="direction">

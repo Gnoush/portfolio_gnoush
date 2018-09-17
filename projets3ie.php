@@ -1,3 +1,4 @@
+<?php /* Template Name: projets3ie */ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,18 +26,17 @@
     </section>
 
     <section class="project-name">
-        <h1>Projet Tritus</h1>
-        <img src="./img/projets-details/tritus/tritus-mockup.png" alt="">
+        <h1>Projets de 3IE</h1>
+        <img src="./img/projets-details/projets-3ie/affiches-3ie-mockup.png" alt="">
         <p class="description">
-            A travers un site internet, son application mobile et sa poubelle connectée, Tritus encourage le recyclage de bouteille tout en récompensant l'utilisateur !
-            <br><br>Comment ça marche ? L'utilisateur va jeter ses bouteilles dans une poubelle Tritus, chaque bouteille recyclé se transformera en points que l'utilisateur pourra utiliser pour obtenir des bons de réductions ou bons d'achats dans différents commerces partenaires du projet Tritus.
+            Quelques affiches réalisées dans le cadre de mon stage chez 3IE (voir projet "Présentation de 3IE"), présentant quelques uns des projets en cours du labo. 
         </p>
     </section>
 
     <section class="project-details">
-        <img src="./img/projets-details/tritus/accueil-connecté-desktop.png" alt="">
-        <img src="./img/projets-details/tritus/devenir-partnenaire-desktop.png" alt="">
-        <img src="./img/projets-details/tritus/noustablette.png" alt="">
+        <img src="./img/projets-details/projets-3ie/w4tchme.png" alt="">
+        <img src="./img/projets-details/projets-3ie/oceanyd-affiche.png" alt="">
+        <img src="./img/projets-details/projets-3ie/ephedra-affiche.png" alt="">
     </section>
 
     <section class="direction">

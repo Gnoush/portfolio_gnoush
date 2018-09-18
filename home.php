@@ -12,7 +12,7 @@
             <a href="#projects">projets</a>
             <a href="#aboutme">à propos</a>
             <a href="#contact">contact</a>
-            <a href="CV-agnes-guinin.pdf" download="cv_agnes_guinin">cv</a>
+            <a href="<?php echo get_bloginfo('stylesheet_directory'); ?>/CV-agnes-guinin.pdf" download="cv_agnes_guinin">cv</a>
             <div class="network">
                 <a class="fab fa-behance" href="https://www.behance.net/agnesguini6480"></a>
                 <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/agn%C3%A8s-guinin-01b819127/"></a>
@@ -29,7 +29,7 @@
             <h4 class="nav-title nav-title-aboutme">à propos<span>de moi</span></h4>
         </a>
         <div class="main-part">
-            <a class="cv-container" href="CV-agnes-guinin.pdf" download="cv_agnes_guinin">
+            <a class="cv-container" href="<?php echo get_bloginfo('stylesheet_directory'); ?>CV-agnes-guinin.pdf" download="cv_agnes_guinin">
                 <div class="cv-img">
                     <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/illu-cv.png">
                 </div>
@@ -50,7 +50,7 @@
                 <div class="nav-responsive-line"></div>
                 <a href="#contact">contact</a>
                 <div class="nav-responsive-line"></div>
-                <a href="CV-agnes-guinin.pdf" download="cv_agnes_guinin">cv</a>
+                <a href="<?php echo get_bloginfo('stylesheet_directory'); ?>CV-agnes-guinin.pdf" download="cv_agnes_guinin">cv</a>
                 <div class="network-responsive">
                     <a class="fab fa-behance" href="https://www.behance.net/agnesguini6480"></a>
                     <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/agn%C3%A8s-guinin-01b819127/"></a>

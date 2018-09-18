@@ -89,7 +89,7 @@
     <section class="projects-main-container" id="projects">
         <h2>Projets</h2>
         <div class="projects-container">
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Glastonbury' ) ); ?>">
                 <div class="project-description bck-color-6">
                     <div class='project-description-placement'>
                         <h3>Glastonbury Festival</h3>
@@ -98,7 +98,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/affiche-glastonbury.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'City Hunter' ) ); ?>">
                 <div class="project-description bck-color-5">
                     <div class='project-description-placement'>
                         <h3>City Hunter : <br> Découvre ta ville !</h3>
@@ -106,7 +106,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/pub-city-hunter.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Wonderball' ) ); ?>">
                 <div class="project-description bck-color-4">
                     <div class='project-description-placement'>
                         <h3>Wonderball</h3>
@@ -115,7 +115,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/accueil_wonderball.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Illustrations' ) ); ?>">
                 <div class="project-description bck-color-3">
                     <div class='project-description-placement'>
                         <h3>Illustrations diverses</h3>
@@ -123,7 +123,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/bckg-responsive.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Logos' ) ); ?>">
                 <div class="project-description bck-color-2">
                     <div class='project-description-placement'>
                         <h3>Divers Logos</h3>
@@ -132,7 +132,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/alternativ-logo.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Noel' ) ); ?>">
                 <div class="project-description bck-color-1">
                     <div class='project-description-placement'>
                         <h3>Joyeux Noël !</h3>
@@ -140,7 +140,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/carte-noel.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Melidrama' ) ); ?>">
                 <div class="project-description bck-color-6">
                     <div class='project-description-placement'>
                         <h3>Call me Melidrama</h3>
@@ -148,7 +148,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/Melidrama.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Popups 2' ) ); ?>">
                 <div class="project-description bck-color-5">
                     <div class='project-description-placement'>
                         <h3>Popups n°2</h3>
@@ -157,7 +157,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/perso-série-outlander.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Projets 3IE' ) ); ?>">
                 <div class="project-description bck-color-4">
                     <div class='project-description-placement'>
                         <h3>Projets de 3IE</h3>
@@ -165,7 +165,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/w4tchme.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( '3IE sketches' ) ); ?>">
                 <div class="project-description bck-color-3">
                     <div class='project-description-placement'>
                         <h3>Présentation de 3IE</h3>
@@ -173,7 +173,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/sketchnote_3IE.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Harry Potter' ) ); ?>">
                 <div class="project-description bck-color-2">
                     <div class='project-description-placement'>
                         <h3>Harry, Ron et Hermione</h3>
@@ -182,7 +182,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/HP_vecto.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Momo' ) ); ?>">
                 <div class="project-description bck-color-1">
                     <div class='project-description-placement'>
                         <h3>Chez Momo : <br> épicerie huppé</h3>
@@ -190,7 +190,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/momo.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Stay Shape' ) ); ?>">
                 <div class="project-description bck-color-6">
                     <div class='project-description-placement'>
                         <h3>Stay in Shape : <br> projet fitness</h3>
@@ -198,7 +198,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/logo-sis.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Dumbo' ) ); ?>">
                 <div class="project-description bck-color-5">
                     <div class='project-description-placement'>
                         <h3>Aimez vos oreilles</h3>
@@ -206,7 +206,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/dumbo_ipod.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Vector' ) ); ?>">
                 <div class="project-description bck-color-4">
                     <div class='project-description-placement'>
                         <h3>Poisson, Arts graphiques, hérisson et chapeaux</h3>
@@ -215,7 +215,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/FISH.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Fibre' ) ); ?>">
                 <div class="project-description bck-color-3">
                     <div class='project-description-placement'>
                         <h3>Fibre</h3>
@@ -224,7 +224,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/fibre_v1.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Queen of Hearts' ) ); ?>">
                 <div class="project-description bck-color-2">
                     <div class='project-description-placement'>
                         <h3>Queen of hearts</h3>
@@ -232,7 +232,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/mockup-cartes.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Popups' ) ); ?>">
                 <div class="project-description bck-color-1">
                     <div class='project-description-placement'>
                         <h3>Popups</h3>
@@ -241,7 +241,7 @@
                 </div>
                 <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/london-devoir1.png">
             </a>
-            <a class="projects" href="">
+            <a class="projects" href="<?php echo get_permalink( get_page_by_title( 'Tritus' ) ); ?>">
                 <div class="project-description bck-color-6">
                     <div class='project-description-placement'>
                         <h3>Tritus : <br>projet de recyclage</h3>

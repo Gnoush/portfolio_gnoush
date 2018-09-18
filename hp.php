@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('stylesheet_directory'); ?>/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
 </head>
 <body>
     <header>
-            <a class="logo-home" href="">
-                <img class="logo-projects" src="./img/logo-ag.svg">
+            <a class="logo-home" href="<?php echo esc_url( home_url('/') ); ?>">
+                <img class="logo-projects" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag.svg">
                 <div class="nav-name">
                     <h3>Agnès Guinin</h3>
                     <p>Webdesigner</p>
@@ -27,11 +27,11 @@
 
     <section class="project-name">
         <h1>Harry, Ron et Hermione</h1>
-        <img src="./img/projets-details/hp/hp-mockup.png" alt="">
+        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/hp/hp-mockup.png" alt="">
     </section>
 
     <section class="project-details">
-        <img src="./img/projets-details/hp/HP-vecto.png" alt="">
+        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/hp/HP-vecto.png" alt="">
     </section>
 
     <section class="direction">

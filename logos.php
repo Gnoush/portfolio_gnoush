@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('stylesheet_directory'); ?>/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
 </head>
 <body>
     <header>
-            <a class="logo-home" href="">
-                <img class="logo-projects" src="./img/logo-ag.svg">
+            <a class="logo-home" href="<?php echo esc_url( home_url('/') ); ?>">
+                <img class="logo-projects" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag.svg">
                 <div class="nav-name">
                     <h3>Agnès Guinin</h3>
                     <p>Webdesigner</p>
@@ -31,19 +31,19 @@
 
     <section class="project-details-logos">
         <div>
-            <img src="./img/projets-details/logos/logomoi1.png" alt="">
-            <img src="./img/projets-details/logos/logomoi2.png" alt="">
-            <img src="./img/projets-details/logos/logomoi3.png" alt="">
+            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/logos/logomoi1.png" alt="">
+            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/logos/logomoi2.png" alt="">
+            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/logos/logomoi3.png" alt="">
         </div>
         <p>Logos alternatifs à mon logo actuel, mais moins adapté pour le web.</p>
         <div>
-            <img src="./img/projets-details/logos/minimoi1.png" alt="">
-            <img src="./img/projets-details/logos/minimoi2.png" alt="">
+            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/logos/minimoi1.png" alt="">
+            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/logos/minimoi2.png" alt="">
         </div>
         <p>Propositions de logo pour la marque de produit pour bébés Mini-moi. J'ai une petite préférence pour les giraffes.</p>
         <div>
-            <img src="./img/projets-details/logos/V-us-logo1.png" alt="">
-            <img class="loading" src="./img/projets-details/logos/loading-app.png" alt="">
+            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/logos/V-us-logo1.png" alt="">
+            <img class="loading" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/logos/loading-app.png" alt="">
             
         </div>
         <p>Créations de logo pour une appli e-sport : VictoryUs. J'en ai créé le logo mais aussi le nom.</p>

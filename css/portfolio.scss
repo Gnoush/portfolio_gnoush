@@ -19,6 +19,7 @@ a {
     text-transform: none;
   }
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -58,7 +59,7 @@ nav {
   flex-direction: column;
   align-items: center;
   margin-top: 2.5em;
-  height: 100vh;
+  height: 80vh;
 }
 .aboutme-container {
   margin-right: auto;
@@ -492,6 +493,17 @@ footer {
   }
 }
 
+.direction {
+  .arrow-icon-container {
+    img {
+      width: 15px;
+    }
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+}
+
 @media (min-width: 1261px) {
   .about-me {
     img {
@@ -604,6 +616,15 @@ footer {
   }
 }
 
+@media (max-width: 1024px) {
+  .home {
+    height: 70vh;
+  }
+  .about-me {
+    margin-top: 0;
+  }
+}
+
 @media (max-width: 992px) {
   * {
     margin: 0;
@@ -692,13 +713,20 @@ footer {
   .about-me {
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 6em;
+    margin: 6em 4vw 0;
+    margin-bottom: 0;
     .about-me-img {
       display: none;
     }
-    .about-me-img-responsive {
-      display: flex;
+    .about-me-img-responsive-image-wrapper {
       position: relative;
+      overflow: hidden;
+      width: 100%;
+      .about-me-img-responsive {
+        display: flex;
+        position: relative;
+        max-width: 100%;
+      }
     }
     .about-me-description {
       margin-left: 0;
@@ -780,26 +808,26 @@ footer {
     background-position: 22%;
     .main-part {
       padding-top: 9em;
-    }
-  }
-  .name-margin {
-    margin-top: 0;
-    .logo-responsive {
-      width: 6em;
-      height: 8.8em;
-      padding-left: 0.5em;
-    }
-    .name-container {
-      width: 17em;
-      h1 {
-        font-size: 2em;
-        text-align: center;
+      .name-margin {
+        margin-top: 0;
+        .logo-responsive {
+          width: 6em;
+          height: 8.8em;
+          padding-left: 0.5em;
+        }
+        .name-container {
+          width: 17em;
+          h1 {
+            font-size: 2em;
+            text-align: center;
+          }
+        }
       }
     }
   }
 
   .about-me {
-    margin: 6em 4vw 6em;
+    margin: 6em 4vw 0;
   }
 
   .projects-main-container {

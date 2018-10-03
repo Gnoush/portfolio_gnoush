@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('stylesheet_directory'); ?>/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
@@ -74,7 +75,9 @@
 
     <section class="about-me" id="aboutme">
         <img class="about-me-img" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/aboutme.png" alt="">
-        <img class="about-me-img-responsive" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/aboutme-responsive.png" alt="">
+        <div class="about-me-img-responsive-image-wrapper">
+            <img class="about-me-img-responsive" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/aboutme-responsive.png" alt="">
+        </div>
         <div class="about-me-description">
             <h2><span>à</span> propos</h2>
             <p>
@@ -254,17 +257,20 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <form>
-            Nom : <input type="text" name="nom">
-            Status : <input list="statues" name="statues">
+        <form action="<?php echo get_bloginfo('stylesheet_directory')."/contact.php"; ?>" method="post">
+            Nom : <input type="text" name="name" value="<?php if (array_key_exists("name", $_POST)) { echo esc_attr($_POST["name"]); } else { echo null; } ?>">
+            Status : <input list="statues" name="status" value="<?php if (array_key_exists("status", $_POST)) { echo esc_attr($_POST["status"]); } else { echo null; } ?>">
             <datalist id="statues">
                 <option value="Entreprise">
                 <option value="Particulier">
             </datalist>
-            Nom Entreprise : <input type="text" name="nom entreprise">
-            Email : <input type="email" name="email">
-            Téléphone : <input type="tel" name="tel">
-            Message : <input type="text" name="message">
+            Nom Entreprise : <input type="text" name="companyName" value="<?php if (array_key_exists("companyName", $_POST)) { echo esc_attr($_POST["companyName"]); } else { echo null; } ?>">
+            Email : <input type="email" name="email" value="<?php if (array_key_exists("email", $_POST)) { echo esc_attr($_POST["email"]); } else { echo null; } ?>">
+            Téléphone : <input type="tel" name="phone" value="<?php if (array_key_exists("phone", $_POST)) { echo esc_attr($_POST["phone"]); } else { echo null; } ?>">
+            Message : <textarea name="message" >
+                <?php if (array_key_exists("message", $_POST)) { echo esc_attr($_POST["message"]); } else { echo null; } ?>
+            </textarea>
+            <input type="hidden" name="submitted" value="1">
             <input type="submit" class="submit" value="Envoyer">
         </form>
     </section>

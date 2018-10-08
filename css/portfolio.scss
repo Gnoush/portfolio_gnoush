@@ -465,16 +465,18 @@ nav {
       border: 1px solid #16161630;
       height: 2em;
     }
-    .submit {
-      border: none;
-      font-family: "Poppins";
-      background-color: #8BB6FF;
-      color: white;
-      height: 2.5em;
-      margin: 1.5em 0;
-      &:hover {
-        cursor: pointer;
-      }
+  }
+  .submit {
+    border: none;
+    font-family: "Poppins";
+    background-color: #8BB6FF;
+    text-transform: capitalize;
+    color: white;
+    height: 2.5em;
+    margin: 1.5em 0;
+    width: 25em;
+    &:hover {
+      cursor: pointer;
     }
   }
 }
@@ -845,5 +847,15 @@ footer {
         width: 85vw;
       }
     }
+  }
+}
+
+.contact-cta {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 15px;
+    margin-right: 10px;
   }
 }

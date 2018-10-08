@@ -6,9 +6,6 @@ const sass = require('gulp-sass');
 const minifyCSS = require('gulp-clean-css');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
-const imagemin = require('gulp-imagemin');
-const replace = require('gulp-replace');
-const rename = require('gulp-rename');
 const browserSync = require('browser-sync').create();
 
 
@@ -17,7 +14,8 @@ const path = {
 };
 
 const js_path = [
-    './js/*.js'
+    './node_modules/jquery/dist/jquery.min.js',
+    './js/main.js'
 ];
 
 // TASKS ========================================================================================

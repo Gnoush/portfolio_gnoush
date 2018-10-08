@@ -7,7 +7,6 @@ require_once("../../../wp-load.php");
  */
 function contactFormGenerateResponse()
 {
-    echo "teast";
 
     $name = $_POST['name'] != null ? $_POST['name'] : null;
     $companyName = $_POST['companyName'] != null ? $_POST['companyName'] : null;
@@ -20,12 +19,7 @@ function contactFormGenerateResponse()
     if ($name == null || $companyName == null || $status == null || $email == null || $phone == null || $message == null) $isFormValid = false;
     else $isFormValid = true;
 
-    echo "test";
-
-    var_dump($isFormValid);
-
     $mail = "";
-    //Inform user through a modal
     if ($isFormValid) {
 
         $mail = wp_mail("chazal.florian@gmail.com", $name . " has sent a message to Gnoush!", $message . "<br><br><br> phone :" . $phone . "<br><br><br> ");

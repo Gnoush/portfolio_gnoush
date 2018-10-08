@@ -30,7 +30,7 @@
             <h4 class="nav-title nav-title-aboutme">à propos<span>de moi</span></h4>
         </a>
         <div class="main-part">
-            <a class="cv-container" href="<?php echo get_bloginfo('stylesheet_directory'); ?>CV-agnes-guinin.pdf" download="cv_agnes_guinin">
+            <a class="cv-container" href="<?php echo get_bloginfo('stylesheet_directory'); ?>/CV-agnes-guinin.pdf" download="cv_agnes_guinin">
                 <div class="cv-img">
                     <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/illu-cv.png">
                 </div>
@@ -257,7 +257,7 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <form action="<?php echo get_bloginfo('stylesheet_directory')."/contact.php"; ?>" method="post">
+        <form method="post">
             Nom : <input type="text" name="name" value="<?php if (array_key_exists("name", $_POST)) { echo esc_attr($_POST["name"]); } else { echo null; } ?>">
             Status : <input list="statues" name="status" value="<?php if (array_key_exists("status", $_POST)) { echo esc_attr($_POST["status"]); } else { echo null; } ?>">
             <datalist id="statues">
@@ -271,14 +271,28 @@
                 <?php if (array_key_exists("message", $_POST)) { echo esc_attr($_POST["message"]); } else { echo null; } ?>
             </textarea>
             <input type="hidden" name="submitted" value="1">
-            <input type="submit" class="submit" value="Envoyer">
         </form>
+        <button id="contact_submit_action" class="submit">Envoyer</button>
     </section>
 
     <footer>
         <div class="footer-line"></div>
         <p>copyright Agnès Guinin ©</p>
     </footer>
+
+    <script type="text/javascript">
+        //Shamelessly stole data returned from php
+
+        /**
+         * Store the Current theme's path
+         *
+         * @type {string}
+         */
+        var stylesheetDirectory = "<?php echo get_bloginfo('stylesheet_directory') ?>";
+        console.log(stylesheetDirectory);
+    </script>
+
+    <script type="text/javascript" src="<?php echo get_bloginfo('stylesheet_directory') ?>/script.min.js"></script>
 
     <script id="__bs_script__">//<![CDATA[
         document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.5'><\/script>".replace("HOST", location.hostname));

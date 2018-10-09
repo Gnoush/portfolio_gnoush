@@ -8,12 +8,12 @@ require_once("../../../wp-load.php");
 function contactFormGenerateResponse()
 {
 
-    $name = $_POST['name'] != null ? $_POST['name'] : null;
-    $companyName = $_POST['companyName'] != null ? $_POST['companyName'] : null;
-    $status = $_POST['status'] != null ? $_POST['status'] : null;
-    $email = $_POST['email'] != null ? $_POST['email'] : null;
-    $phone = $_POST['phone'] != null ? $_POST['phone'] : null;
-    $message = $_POST['message'] != null ? $_POST['message'] : null;
+    $name = isset($_REQUEST['name']) ? $_REQUEST['name'] : null;
+    $companyName = isset($_REQUEST['companyName']) ? $_REQUEST['companyName'] : null;
+    $status = isset($_REQUEST['status']) ? $_REQUEST['status'] : null;
+    $email = isset($_REQUEST['email']) ? $_REQUEST['email'] : null;
+    $phone = isset($_REQUEST['phone']) ? $_REQUEST['phone'] : null;
+    $message = isset($_REQUEST['message']) ? $_REQUEST['message'] : null;
 
     //valid presence of all forms's params
     if ($name == null || $companyName == null || $status == null || $email == null || $phone == null || $message == null) $isFormValid = false;
@@ -22,13 +22,12 @@ function contactFormGenerateResponse()
     $mail = "";
     if ($isFormValid) {
 
-        $mail = wp_mail("chazal.florian@gmail.com", $name . " has sent a message to Gnoush!", $message . "<br><br><br> phone :" . $phone . "<br><br><br> ");
+        $mail = wp_mail("chazal.florian@gmail.com", $name . " has sent a message to Agnes !", $message . "<br><br><br> phone :" . $phone . "<br><br><br> ", 'From:' . $email);
 
-        var_dump("test");
     }
 
-    if ($mail) var_dump("win");
-    else echo var_dump("fail");
+    if ($mail) echo "win";
+    else echo "fail";
 }
 
 contactFormGenerateResponse();

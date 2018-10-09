@@ -15,14 +15,14 @@ const path = {
 
 const js_path = [
     './node_modules/jquery/dist/jquery.min.js',
-    './js/main.js'
+    './js/.js'
 ];
 
 // TASKS ========================================================================================
 // DEFAULT --------------------------------------------------------------------------------------
 /**
  * Tasks who can be run
- * 
+ *
  * default : run for local watch
  */
 gulp.task('default', () => {
@@ -68,7 +68,7 @@ function watcher() {
  *
  * @returns {*|void} result of Gulp data Stream
  */
-function minify_css() { 
+function minify_css() {
     return gulp.src([path.css])
         .pipe(sass())
         .pipe(concat('custom.min.css'))

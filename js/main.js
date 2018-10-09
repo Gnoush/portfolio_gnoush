@@ -109,48 +109,7 @@ var projects = {
  */
 var projectKeys = Object.keys(projects).sort();
 
-/**
- *
- * @type {number}
- */
-var loc = projectKeys.indexOf(projects[currentTemplate].templateName);
-
 /////////////////////////////////FUNCTIONS
-/**
- *
- *
- * @param name
- * @param companyName
- * @param status
- * @param email
- * @param phone
- * @param message
- * @returns {boolean}
- */
-function sendContactForm(name, companyName, status, email, phone, message) {
-    $.ajax("http://wordpress.local/wp-content/themes/gnoush/contact.php", {
-        async: true,
-        type: "post",
-        data: {
-            "name": name,
-            "companyName": companyName,
-            "status": status,
-            "email": email,
-            "phone": phone,
-            "message": message
-        },
-        dataType: "json",
-        crossDomain: true,
-        error: function () {
-            console.log("fail");
-        },
-        success: function () {
-            console.log("win");
-        }
-    });
-
-    return false;
-}
 
 /**
  *
@@ -213,18 +172,55 @@ function setNextProject() {
     loc = projectKeys.indexOf(projects[currentTemplate].templateName);
 }
 
+/**
+ *
+ *
+ * @param name
+ * @param companyName
+ * @param status
+ * @param email
+ * @param phone
+ * @param message
+ * @returns {boolean}
+ */
+function sendContactForm(name, companyName, status, email, phone, message) {
+    $.ajax("http://wordpress.local/wp-content/themes/gnoush/contact.php", {
+        async: true,
+        type: "POST",
+        data: {
+            "name": name,
+            "companyName": companyName,
+            "status": status,
+            "email": email,
+            "phone": phone,
+            "message": message
+        },
+        dataType: "jsonp",
+        crossDomain: true,
+        error: function () {
+            console.log("fail");
+        },
+        success: function () {
+            console.log("win");
+        }
+    });
+
+    return false;
+}
+
 /////////////////////////////////RUNTIME
 
-$("#contact_submit_action").click(function () {
+$(document).ready(function () {
 
-    console.log($("input[name=name]").text());
+    $("#contact_submit_action").click(function () {
 
-    sendContactForm(
-        $("input[name=name]").text(),
-        $("input[name=companyName]").text(),
-        $("input[name=status]").text(),
-        $("input[name=email]").text(),
-        $("input[name=phone]").text(),
-        $("input[name=message]").text()
-    )
+        sendContactForm(
+            $("input[name=name]").val(),
+            $("input[name=companyName]").val(),
+            $("input[name=status]").val(),
+            $("input[name=email]").val(),
+            $("input[name=phone]").val(),
+            $("textarea[name=message]").val()
+        )
+    });
 });

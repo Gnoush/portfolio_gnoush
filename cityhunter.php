@@ -5,13 +5,16 @@
         <h1>City Hunter : Découvre ta ville !</h1>
         <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets/pub-city-hunter.png" alt="">
         <p>
-            Le but : devenir expert en street arts et connaître les lieux insolites et meilleurs bars et restau qui peuplent ta ville.
-            <br><br>City Hunter est un jeu sous forme de parcours. Créer ou rejoins une équipe, choisit ou créer un parcours, et pars à la découverte de ta ville ou de ton quartiers en suivant les étapes sur ton téléphone.
+            Le but : devenir expert en street arts et connaître les lieux insolites et meilleurs bars et restau qui
+            peuplent ta ville.
+            <br><br>City Hunter est un jeu sous forme de parcours. Créer ou rejoins une équipe, choisit ou créer un
+            parcours, et pars à la découverte de ta ville ou de ton quartiers en suivant les étapes sur ton téléphone.
             <br><br>Malheureusement cette application n'existe que sous forme de maquettes..
         </p>
     </section>
 
     <section class="project-details">
-        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/city-hunter/city-hunter-mockup.png" alt="">
+        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/city-hunter/city-hunter-mockup.png"
+             alt="">
     </section>
 <?php include_once "footer.php"; ?>

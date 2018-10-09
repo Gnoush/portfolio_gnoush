@@ -3,7 +3,8 @@
 
     <section class="project-name">
         <h1>Fibre</h1>
-        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/fibre/fibre-mockup.png" alt="">
+        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/fibre/fibre-mockup.png"
+             alt="">
         <p class="description">
             Deux versions différentes du même site, de la marque fictive Fibre.
         </p>

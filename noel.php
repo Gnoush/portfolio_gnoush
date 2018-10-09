@@ -3,7 +3,8 @@
 
     <section class="project-name">
         <h1>Joyeux Noël !</h1>
-        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/noel/christmas-Mockup.png" alt="">
+        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/noel/christmas-Mockup.png"
+             alt="">
     </section>
 
     <section class="project-details">

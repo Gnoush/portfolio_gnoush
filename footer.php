@@ -22,6 +22,13 @@
     var permalink = "<?php echo get_site_url();?>";
 </script>
 <script type="text/javascript">
+
+    /**
+     *
+     * @type {number}
+     */
+    var loc = projectKeys.indexOf(projects[currentTemplate].templateName);
+
     initProjectDisplay();
 </script>
 <script id="__bs_script__">//<![CDATA[

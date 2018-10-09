@@ -289,7 +289,6 @@
          * @type {string}
          */
         var stylesheetDirectory = "<?php echo get_bloginfo('stylesheet_directory') ?>";
-        console.log(stylesheetDirectory);
     </script>
 
     <script type="text/javascript" src="<?php echo get_bloginfo('stylesheet_directory') ?>/script.min.js"></script>

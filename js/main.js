@@ -8,79 +8,98 @@
 var projects = {
     "3iesketch": {
         "isDisplayed": false,
-        "templateName": "3iesketch"
+        "templateName": "3iesketch",
+        "url": "3ie-sketches"
     },
     "cityhunter": {
         "isDisplayed": false,
-        "templateName": "cityhunter"
+        "templateName": "cityhunter",
+        "url": "city-hunter"
     },
     "dumbo": {
         "isDisplayed": false,
-        "templateName": "dumbo"
+        "templateName": "dumbo",
+        "url": "dumbo"
     },
     "fibre": {
         "isDisplayed": false,
-        "templateName": "fibre"
+        "templateName": "fibre",
+        "url": "fibre-2"
     },
     "glastonbury": {
         "isDisplayed": false,
-        "templateName": "glastonbury"
+        "templateName": "glastonbury",
+        "url": "glastonbury"
     },
     "hp": {
         "isDisplayed": false,
-        "templateName": "hp"
+        "templateName": "hp",
+        "url": "harry-potter"
     },
     "illus": {
         "isDisplayed": false,
-        "templateName": "illus"
+        "templateName": "illus",
+        "url": "illustrations"
     },
     "logos": {
         "isDisplayed": false,
-        "templateName": "logos"
+        "templateName": "logos",
+        "url": "logos"
     },
     "melidrama": {
         "isDisplayed": false,
-        "templateName": "melidrama"
+        "templateName": "melidrama",
+        "url": "melidrama-2"
     },
     "momo": {
         "isDisplayed": false,
-        "templateName": "momo"
+        "templateName": "momo",
+        "url": "momo"
     },
     "noel": {
         "isDisplayed": false,
-        "templateName": "noel"
+        "templateName": "noel",
+        "url": "noel"
     },
     "popups": {
         "isDisplayed": false,
-        "templateName": "popups"
+        "templateName": "popups",
+        "url": "popups"
     },
     "popups2": {
         "isDisplayed": false,
-        "templateName": "popups2"
+        "templateName": "popups2",
+        "url": "popups-2"
     },
     "projets3ie": {
         "isDisplayed": false,
-        "templateName": "projets3ie"
+        "templateName": "projets3ie",
+        "url": "projets-3ie"
     },
     "queenofhearts": {
         "isDisplayed": false,
-        "templateName": "queenofhearts"
+        "templateName": "queenofhearts",
+        "url": "queen-of-hearts"
     },
     "stayinshape": {
         "isDisplayed": false,
-        "templateName": "stayinshape"
+        "templateName": "stayinshape",
+        "url": "stay-shape"
     },
     "tritus": {
         "isDisplayed": false,
-        "templateName": "tritus"
+        "templateName": "tritus",
+        "url": "tritus-2"
     },
     "vector": {
         "isDisplayed": false,
-        "templateName": "vector"
+        "templateName": "vector",
+        "url": "vector"
     },
     "wonderball": {
         "isDisplayed": false,
-        "templateName": "wonderball"
+        "templateName": "wonderball",
+        "url": "wonderball"
     },
 };
 
@@ -156,16 +175,16 @@ function initProjectDisplay() {
  * Temporary function to init links at runtime
  */
 function setPreviousButton() {
-    if ( loc > 0 ) $(".arrow-project-nav-left").attr("href", permalink + "/" + projects[projectKeys[loc - 1]].templateName + "/");
-    else $(".arrow-project-nav-left").attr("href", permalink + projects[projectKeys.length - 1].templateName + "/");
+    if (loc > 0) $(".arrow-project-nav-left").attr("href", permalink + "/" + projects[projectKeys[loc - 1]].url + "/");
+    else $(".arrow-project-nav-left").attr("href", permalink + "/" + projects[projectKeys[projectKeys.length - 1]].url + "/");
 }
 
 /**
  * Temporary function to init links at runtime
  */
 function setNextButton() {
-    if (loc < (projectKeys.length - 1)) $(".arrow-project-nav-right").attr("href", permalink + "/" + projects[projectKeys[loc + 1]].templateName + "/");
-    else $(".arrow-project-nav-right").attr("href", permalink + "/" + projects[projectKeys[0]].templateName + "/");
+    if (loc < (projectKeys.length - 1)) $(".arrow-project-nav-right").attr("href", permalink + "/" + projects[projectKeys[loc + 1]].url + "/");
+    else $(".arrow-project-nav-right").attr("href", permalink + "/" + projects[projectKeys[0]].url + "/");
 }
 
 /**

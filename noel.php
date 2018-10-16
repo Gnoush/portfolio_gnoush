@@ -1,7 +1,7 @@
 <?php /* Template Name: noel */ ?>
 <?php include_once "header.php"; ?>
 
-    <section class="project-name">
+    <section class="project-wrapper project-name">
         <h1>Joyeux Noël !</h1>
         <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/noel/christmas-Mockup.png"
              alt="">

@@ -316,19 +316,7 @@
     <p>copyright Agnès Guinin ©</p>
 </footer>
 
-<script type="text/javascript">
-    //Shamelessly stole data returned from php
-
-    /**
-     * Store the Current theme's path
-     *
-     * @type {string}
-     */
-    var stylesheetDirectory = "<?php echo get_bloginfo('stylesheet_directory') ?>";
-</script>
-
 <script type="text/javascript" src="<?php echo get_bloginfo('stylesheet_directory') ?>/script.min.js"></script>
-
 <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.5'><\/script>".replace("HOST", location.hostname));
     //]]></script>

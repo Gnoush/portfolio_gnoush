@@ -8,16 +8,6 @@
           integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
 </head>
 <body>
-
-<script type="text/javascript">
-    /**
-     * Store the Current Template Displayed
-     *
-     * @type {string}
-     */
-    var currentTemplate = "<?php echo substr(get_page_template_slug(), 0, -4); ?>";
-</script>
-
 <header>
     <a class="logo-home" href="<?php echo esc_url(home_url('/')); ?>">
         <img class="logo-projects" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/logo-ag.svg">

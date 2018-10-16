@@ -1,7 +1,7 @@
 <?php /* Template Name: queenofhearts */ ?>
 <?php include_once "header.php"; ?>
 
-    <section class="project-name">
+    <section class="project-wrapper project-name">
         <h1>Queen of Hearts</h1>
         <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/queenofhearts/mockup-cartes.png"
              alt="">

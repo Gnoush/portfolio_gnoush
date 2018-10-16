@@ -1,7 +1,7 @@
 <?php /* Template Name: illus */ ?>
 <?php include_once "header.php"; ?>
 
-    <section class="project-name project-name-illu">
+    <section class="project-wrapper project-name project-name-illu">
         <h1>Illustrations diverses</h1>
         <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/bckg-responsive.png" alt="">
         <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/contact-bg.png" alt="">

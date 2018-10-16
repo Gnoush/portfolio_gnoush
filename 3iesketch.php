@@ -1,7 +1,7 @@
 <?php /* Template Name: 3iesketch */ ?>
 <?php include_once "header.php" ?>
 
-    <section class="project-name">
+    <section class="project-wrapper project-name">
         <h1>Présentation de 3IE</h1>
         <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/3ie-sketchnote/3ie-sketchnote-mockup.png"
              alt="">

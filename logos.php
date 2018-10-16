@@ -1,11 +1,8 @@
 <?php /* Template Name: logos */ ?>
 <?php include_once "header.php" ?>
 
-    <section class="project-name">
+    <section class="project-wrapper project-details-logos project-name">
         <h1>Divers Logos</h1>
-    </section>
-
-    <section class="project-details-logos">
         <div>
             <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/logos/logomoi1.png"
                  alt="">

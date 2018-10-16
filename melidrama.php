@@ -1,7 +1,7 @@
 <?php /* Template Name: melidrama */ ?>
 <?php include_once "header.php"; ?>
 
-    <section class="project-name">
+    <section class="project-wrapper project-name">
         <h1>Call Me Melidrama</h1>
         <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/melidrama/Melidrama.png"
              alt="">

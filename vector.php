@@ -1,7 +1,7 @@
 <?php /* Template Name: vector */ ?>
 <?php include_once "header.php"; ?>
 
-    <section class="project-name">
+    <section class="project-wrapper project-name">
         <h1>Poisson, Arts graphiques, hérisson et chapeaux</h1>
         <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/vector/vector-mockup.png"
              alt="">

@@ -1,0 +1,97 @@
+{
+  "3iesketch": {
+    "isDisplayed": false,
+    "templateName": "3iesketch",
+    "url": "3ie-sketches"
+  },
+  "cityhunter": {
+    "isDisplayed": false,
+    "templateName": "cityhunter",
+    "url": "city-hunter"
+  },
+  "dumbo": {
+    "isDisplayed": false,
+    "templateName": "dumbo",
+    "url": "dumbo"
+  },
+  "fibre": {
+    "isDisplayed": false,
+    "templateName": "fibre",
+    "url": "fibre-2"
+  },
+  "glastonbury": {
+    "isDisplayed": false,
+    "templateName": "glastonbury",
+    "url": "glastonbury"
+  },
+  "hp": {
+    "isDisplayed": false,
+    "templateName": "hp",
+    "url": "harry-potter"
+  },
+  "illus": {
+    "isDisplayed": false,
+    "templateName": "illus",
+    "url": "illustrations"
+  },
+  "logos": {
+    "isDisplayed": false,
+    "templateName": "logos",
+    "url": "logos"
+  },
+  "melidrama": {
+    "isDisplayed": false,
+    "templateName": "melidrama",
+    "url": "melidrama-2"
+  },
+  "momo": {
+    "isDisplayed": false,
+    "templateName": "momo",
+    "url": "momo"
+  },
+  "noel": {
+    "isDisplayed": false,
+    "templateName": "noel",
+    "url": "noel"
+  },
+  "popups": {
+    "isDisplayed": false,
+    "templateName": "popups",
+    "url": "popups"
+  },
+  "popups2": {
+    "isDisplayed": false,
+    "templateName": "popups2",
+    "url": "popups-2"
+  },
+  "projets3ie": {
+    "isDisplayed": false,
+    "templateName": "projets3ie",
+    "url": "projets-3ie"
+  },
+  "queenofhearts": {
+    "isDisplayed": false,
+    "templateName": "queenofhearts",
+    "url": "queen-of-hearts"
+  },
+  "stayinshape": {
+    "isDisplayed": false,
+    "templateName": "stayinshape",
+    "url": "stay-shape"
+  },
+  "tritus": {
+    "isDisplayed": false,
+    "templateName": "tritus",
+    "url": "tritus-2"
+  },
+  "vector": {
+    "isDisplayed": false,
+    "templateName": "vector",
+    "url": "vector"
+  },
+  "wonderball": {
+    "isDisplayed": false,
+    "templateName": "wonderball",
+    "url": "wonderball"
+  }
+}

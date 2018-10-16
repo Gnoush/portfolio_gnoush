@@ -1,149 +1,52 @@
-////////////////////////////////CONST
-
+/////////////////////////////////VAR
 /**
  *
- *
- * @type {{"projectName": {isDisplayed: boolean, templateName: string}}}
+ * @type {string[]}
  */
-var projects = {
-    "3iesketch": {
-        "isDisplayed": false,
-        "templateName": "3iesketch",
-        "url": "3ie-sketches"
-    },
-    "cityhunter": {
-        "isDisplayed": false,
-        "templateName": "cityhunter",
-        "url": "city-hunter"
-    },
-    "dumbo": {
-        "isDisplayed": false,
-        "templateName": "dumbo",
-        "url": "dumbo"
-    },
-    "fibre": {
-        "isDisplayed": false,
-        "templateName": "fibre",
-        "url": "fibre-2"
-    },
-    "glastonbury": {
-        "isDisplayed": false,
-        "templateName": "glastonbury",
-        "url": "glastonbury"
-    },
-    "hp": {
-        "isDisplayed": false,
-        "templateName": "hp",
-        "url": "harry-potter"
-    },
-    "illus": {
-        "isDisplayed": false,
-        "templateName": "illus",
-        "url": "illustrations"
-    },
-    "logos": {
-        "isDisplayed": false,
-        "templateName": "logos",
-        "url": "logos"
-    },
-    "melidrama": {
-        "isDisplayed": false,
-        "templateName": "melidrama",
-        "url": "melidrama-2"
-    },
-    "momo": {
-        "isDisplayed": false,
-        "templateName": "momo",
-        "url": "momo"
-    },
-    "noel": {
-        "isDisplayed": false,
-        "templateName": "noel",
-        "url": "noel"
-    },
-    "popups": {
-        "isDisplayed": false,
-        "templateName": "popups",
-        "url": "popups"
-    },
-    "popups2": {
-        "isDisplayed": false,
-        "templateName": "popups2",
-        "url": "popups-2"
-    },
-    "projets3ie": {
-        "isDisplayed": false,
-        "templateName": "projets3ie",
-        "url": "projets-3ie"
-    },
-    "queenofhearts": {
-        "isDisplayed": false,
-        "templateName": "queenofhearts",
-        "url": "queen-of-hearts"
-    },
-    "stayinshape": {
-        "isDisplayed": false,
-        "templateName": "stayinshape",
-        "url": "stay-shape"
-    },
-    "tritus": {
-        "isDisplayed": false,
-        "templateName": "tritus",
-        "url": "tritus-2"
-    },
-    "vector": {
-        "isDisplayed": false,
-        "templateName": "vector",
-        "url": "vector"
-    },
-    "wonderball": {
-        "isDisplayed": false,
-        "templateName": "wonderball",
-        "url": "wonderball"
-    },
-};
+var projects = [];
 
 /**
  *
  * @type {string[]}
  */
-var projectKeys = Object.keys(projects).sort();
+var projectKeys = [];
+
+/**
+ *
+ * @type {number}
+ */
+var loc = 0;
 
 /////////////////////////////////FUNCTIONS
-
 /**
  *
  */
 function initProjectDisplay() {
     //get Current template and actualize array of template's reference
     projects[currentTemplate].isDisplayed = true;
-    setNextButton();
-    setPreviousButton();
+    console.log(loc);
 
     //set OnClickEventListener
-    //$(".arrow-project-nav-left").click(function (event) {
-    //    setPreviousProject();
-    //});
+    $(".arrow-icon-container.arrow-project-nav-left").click(function (e) {
+        e.preventDefault();
+        setPreviousProject();
+        console.log(loc);
+    });
 
-    //$(".arrow-project-nav-right").click(function (event) {
-    //    setNextProject();
-    //});
+    $(".arrow-icon-container.arrow-project-nav-right").click(function (e) {
+        e.preventDefault();
+        setNextProject();
+        console.log(loc);
+    });
 }
 
 /**
- * Temporary function to init links at runtime
+ * If for any obscure reason the projects resource file cannot be loaded,
+ * add these dummies links to avoid non-working buttons
  */
-function setPreviousButton() {
-    if (loc > 0) $(".arrow-project-nav-left").attr("href", permalink + "/" + projects[projectKeys[loc - 1]].url + "/");
-    else $(".arrow-project-nav-left").attr("href", permalink + "/" + projects[projectKeys[projectKeys.length - 1]].url + "/");
-}
-
-/**
- * Temporary function to init links at runtime
- */
-function setNextButton() {
-    if (loc < (projectKeys.length - 1)) $(".arrow-project-nav-right").attr("href", permalink + "/" + projects[projectKeys[loc + 1]].url + "/");
-    else $(".arrow-project-nav-right").attr("href", permalink + "/" + projects[projectKeys[0]].url + "/");
+function setNavigationHrefFallback() {
+    $(".arrow-project-nav-left").attr("href", permalink + "/dumbo/");
+    $(".arrow-project-nav-right").attr("href", permalink + "/glastonbury/");
 }
 
 /**
@@ -184,7 +87,7 @@ function setNextProject() {
  * @returns {boolean}
  */
 function sendContactForm(name, companyName, status, email, phone, message) {
-    $.ajax("http://wordpress.local/wp-content/themes/gnoush/contact.php", {
+    $.ajax(stylesheetDirectory + "contact.php", {
         async: true,
         type: "POST",
         data: {
@@ -205,22 +108,40 @@ function sendContactForm(name, companyName, status, email, phone, message) {
         }
     });
 
-    return false;
+    return true;
 }
 
 /////////////////////////////////RUNTIME
-
 $(document).ready(function () {
 
-    $("#contact_submit_action").click(function () {
+    if (typeof currentTemplate !== "undefined") {
+        //retrieve Projects lists from JSON resource
+        $.getJSON(stylesheetDirectory + "/projects.json")
+            .done(function (data) {
+                projects = data;
+                projectKeys = Object.keys(projects).sort();
+                loc = projectKeys.indexOf(projects[currentTemplate].templateName);
 
-        sendContactForm(
-            $("input[name=name]").val(),
-            $("input[name=companyName]").val(),
-            $("input[name=status]").val(),
-            $("input[name=email]").val(),
-            $("input[name=phone]").val(),
-            $("textarea[name=message]").val()
-        )
-    });
+                initProjectDisplay();
+            })
+            .fail(function (xhrRequest, textStatus, error) {
+                console.log("Error: " + textStatus);
+                console.log(error.toString());
+
+                setNavigationHrefFallback()
+            });
+    } else {
+        //on click on #contact_submit_action, init a mail reation using the Contact Form inputs' values
+        $("#contact_submit_action").click(function () {
+
+            sendContactForm(
+                $("input[name=name]").val(),
+                $("input[name=companyName]").val(),
+                $("input[name=status]").val(),
+                $("input[name=email]").val(),
+                $("input[name=phone]").val(),
+                $("textarea[name=message]").val()
+            )
+        });
+    }
 });

@@ -1,17 +1,20 @@
 /////////////////////////////////VAR
 /**
+ * JSON Object containing all of Gnoush projects
  *
- * @type {string[]}
+ * @type {JSON}
  */
 var projects = [];
 
 /**
+ * ordered Array which contains index of all JSON objects in projects
  *
  * @type {string[]}
  */
 var projectKeys = [];
 
 /**
+ * represent the current place of the displayed template, in projects
  *
  * @type {number}
  */
@@ -19,24 +22,21 @@ var loc = 0;
 
 /////////////////////////////////FUNCTIONS
 /**
- *
+ * Initialize the Triggers, which will allw the user clicking it to navigate within project
  */
 function initProjectDisplay() {
     //get Current template and actualize array of template's reference
     projects[currentTemplate].isDisplayed = true;
-    console.log(loc);
 
     //set OnClickEventListener
     $(".arrow-icon-container.arrow-project-nav-left").click(function (e) {
         e.preventDefault();
         setPreviousProject();
-        console.log(loc);
     });
 
     $(".arrow-icon-container.arrow-project-nav-right").click(function (e) {
         e.preventDefault();
         setNextProject();
-        console.log(loc);
     });
 }
 

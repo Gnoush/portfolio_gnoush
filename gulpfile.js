@@ -15,7 +15,7 @@ const path = {
 
 const js_path = [
     './node_modules/jquery/dist/jquery.min.js',
-    './js/.js'
+    './js/*.js'
 ];
 
 // TASKS ========================================================================================

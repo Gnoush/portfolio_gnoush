@@ -1,18 +1,6 @@
 <?php /* Template Name: fibre */ ?>
 <?php include_once "header.php"; ?>
 
-    <section class="project-wrapper project-name">
-        <h1>Fibre</h1>
-        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/fibre/fibre-mockup.png"
-             alt="">
-        <p class="description">
-            Deux versions différentes du même site, de la marque fictive Fibre.
-        </p>
-    </section>
-
-    <section class="project-details">
-        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/fibre/Fibre-v1.png" alt="">
-        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/fibre/V2.png" alt="">
-    </section>
+<?php include_once "html/fibre.html" ?>
 
 <?php include_once "footer.php"; ?>

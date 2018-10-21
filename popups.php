@@ -1,23 +1,6 @@
 <?php /* Template Name: popups */ ?>
 <?php include_once "header.php"; ?>
 
-    <section class="project-wrapper project-name">
-        <h1>Popups</h1>
-        <div class="img-presentation">
-            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/popups/pricing-plan-mockup.png"
-                 alt="">
-            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/popups/london-portable-mockup.png"
-                 alt="">
-        </div>
-    </section>
-
-    <section class="project-details">
-        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/popups/london-devoir1.png"
-             alt="">
-        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/popups/pricing-plan2.png"
-             alt="">
-        <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/popups/devoir-portable.png"
-             alt="">
-    </section>
+<?php include_once "html/popups.html"; ?>
 
 <?php include_once "footer.php"; ?>

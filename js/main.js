@@ -145,7 +145,7 @@ function loadProjectPage() {
  * @returns {boolean}
  */
 function sendContactForm(name, companyName, status, email, phone, message) {
-    $.ajax(stylesheetDirectory + "contact.php", {
+    $.ajax(stylesheetDirectory + "/contact.php", {
         async: true,
         type: "POST",
         data: {
@@ -192,7 +192,8 @@ $(document).ready(function () {
             });
     } else {
         //on click on #contact_submit_action, init a mail reation using the Contact Form inputs' values
-        $("#contact_submit_action").click(function () {
+        $("#contact_submit_action").click(function (e) {
+            e.preventDefault();
 
             sendContactForm(
                 $("input[name=name]").val(),

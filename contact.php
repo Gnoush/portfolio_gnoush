@@ -22,7 +22,12 @@ function contactFormGenerateResponse()
     $mail = "";
     if ($isFormValid) {
 
-        $mail = wp_mail("chazal.florian@gmail.com", $name . " has sent a message to Agnes !", $message . "<br><br><br> phone :" . $phone . "<br><br><br> ", 'From:' . $email);
+        $mail = wp_mail(
+            "agnes.guinin@gmail.com",
+            "[" . $status . "] " . $name . " has sent a message to Agnes !",
+            $message . "\n\n\n phone :" . $phone . "\n\n\n company:" . $companyName,
+            'From:' . $email
+        );
 
     }
 

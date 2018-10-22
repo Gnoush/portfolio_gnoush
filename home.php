@@ -315,11 +315,15 @@
     <div class="footer-line"></div>
     <p>copyright Agnès Guinin ©</p>
 </footer>
-
+<script type="text/javascript">
+    /**
+     * Store the Current theme's path
+     *
+     * @type {string}
+     */
+    const stylesheetDirectory = "<?php echo get_bloginfo('stylesheet_directory') ?>";
+</script>
 <script type="text/javascript" src="<?php echo get_bloginfo('stylesheet_directory') ?>/script.min.js"></script>
-<script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.5'><\/script>".replace("HOST", location.hostname));
-    //]]></script>
 
 </body>
 </html>

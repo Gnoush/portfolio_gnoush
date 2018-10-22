@@ -3,7 +3,17 @@
 require_once("../../../wp-load.php");
 
 /**
+ * Send an email to agnes.guinin@gmail.com, based on the informations received through $_REQUEST
  *
+ * Ensure the presence of all required attributes. if one is missing, abort request
+ * else if all attributes are not null, create and send a Mail through the built-in Wordpress mail method wp_mail
+ *
+ * Required attributes are :
+ * - name
+ * - companyName
+ * - status
+ * - phone
+ * - message
  */
 function contactFormGenerateResponse()
 {

@@ -498,10 +498,10 @@ footer {
 .direction {
   .arrow-icon-container {
     img {
-      width: 15px;
+      width: 25px;
     }
     &:first-child {
-      margin-right: 20px;
+      margin-right: 70px;
     }
   }
 }
@@ -856,6 +856,7 @@ footer {
   justify-content: center;
   img {
     width: 15px;
+    height: 15px;
     margin-right: 10px;
   }
 }

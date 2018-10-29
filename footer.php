@@ -1,6 +1,8 @@
 <section class="direction">
-    <a href="" class="fas fa-angle-left  arrow-project-nav-left"></a>
-    <a href="" class="fas fa-angle-right  arrow-project-nav-right"></a>
+    <a class="arrow-icon-container arrow-project-nav-left" href=""><img class=""
+                                                                        src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/angle-left-solid.svg"></a>
+    <a class="arrow-icon-container arrow-project-nav-right" href=""><img
+                src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/angle-right-solid.svg"></a>
 </section>
 
 <footer>

@@ -1,4 +1,24 @@
 {
+  "pubhm": {
+    "isDisplayed": false,
+    "templateName": "pubhm",
+    "url": "pubhm"
+  },
+  "revuepresse": {
+    "isDisplayed": false,
+    "templateName": "revuepresse",
+    "url": "revuepresse"
+  },
+  "banniere-newsletter": {
+    "isDisplayed": false,
+    "templateName": "banniere-newsletter",
+    "url": "banniere-newsletter"
+  },
+  "ateliernature": {
+    "isDisplayed": false,
+    "templateName": "ateliernature",
+    "url": "ateliernature"
+  },
   "3iesketch": {
     "isDisplayed": false,
     "templateName": "3iesketch",

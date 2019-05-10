@@ -103,6 +103,41 @@
 <section class="projects-main-container" id="projects">
     <h2>Projets</h2>
     <div class="projects-container">
+        <a class="projects" href="<?php echo get_permalink(get_page_by_title('revuepresse')); ?>">
+            <div class="project-description bck-color-4">
+                <div class='project-description-placement'>
+                    <h3>Hello Marcel :<br>vidéo promo</h3>
+                    <p>Petite pub vidéo pour la sortie de la webapp d'Hello Marcel</p>
+                </div>
+            </div>
+            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/pubHM/vert.png">
+        </a>
+        <a class="projects" href="<?php echo get_permalink(get_page_by_title('revuepresse')); ?>">
+            <div class="project-description bck-color-3">
+                <div class='project-description-placement'>
+                    <h3>Hello Marcel :<br>Revue de Presse</h3>
+                </div>
+            </div>
+            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/revuepresse/mockup-revue2.png">
+        </a>
+        <a class="projects" href="<?php echo get_permalink(get_page_by_title('banniere-newsletter')); ?>">
+            <div class="project-description bck-color-2">
+                <div class='project-description-placement'>
+                    <h3>Hello Marcel :<br>Eléments de communications</h3>
+                    <p>Créations d'une bannière facebook et d'une newsletter (créa et intégration) pour Hello Marcel</p>
+                </div>
+            </div>
+            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/banniere-newsletter/banniere-fb_HM.png">
+        </a>
+        <a class="projects" href="<?php echo get_permalink(get_page_by_title('ateliernature')); ?>">
+            <div class="project-description bck-color-1">
+                <div class='project-description-placement'>
+                    <h3>Hello Marcel :<br>Atelier Nature</h3>
+                    <p>Livret de l'atelier organisé par la startup Hello Marcel</p>
+                </div>
+            </div>
+            <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/img/projets-details/ateliernature/mockup-livret.png">
+        </a>
         <a class="projects" href="<?php echo get_permalink(get_page_by_title('Glastonbury')); ?>">
             <div class="project-description bck-color-6">
                 <div class='project-description-placement'>
